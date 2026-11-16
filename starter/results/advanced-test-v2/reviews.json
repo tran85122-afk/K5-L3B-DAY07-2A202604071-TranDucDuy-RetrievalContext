@@ -1,0 +1,275 @@
+[
+  {
+    "query_id": "adv_v01",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: All 8 cells correct (portal 84/91/95/92, metadata 63/91/97/100), upper-middle highest portal, gap 37 pp."
+  },
+  {
+    "query_id": "adv_v02",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: All four stages with every bullet of Table 8.1 reported correctly."
+  },
+  {
+    "query_id": "adv_v03",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: Both rows correct (57/46/29/74/62/20 and 55/43/38/72/44/15); nonpersonal data 38 > 29 identified."
+  },
+  {
+    "query_id": "adv_v04",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: Both Quality standards and both Machine learning research gaps reproduced faithfully."
+  },
+  {
+    "query_id": "adv_v05",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Objectives for aggregators/brokers, data pools, data trusts all correct; extra cite p298:p6 is the same table text."
+  },
+  {
+    "query_id": "adv_v06",
+    "pass": false,
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "notes": "FAIL (legend misread): 8 agreements+years and 9 provisions correct, but the asked legend is fabricated: claims '|' = binding and 'bullet point' = soft law; the symbols are lost in extraction and '|' is the column separator. Unsupported claim -> fail."
+  },
+  {
+    "query_id": "adv_v07",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Positive (4) and negative (5) outcomes and green/red encoding correct."
+  },
+  {
+    "query_id": "adv_v08",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Five stakeholder groups and five data attributes correct (latency 35.5 s due to rate-limit wait)."
+  },
+  {
+    "query_id": "adv_v09",
+    "pass": false,
+    "answer_grade": 0,
+    "citation_support": [
+      false,
+      false
+    ],
+    "notes": "FAIL (column misalignment): lists 'Performance-enhancing environment' as a feature, shifts every description by one feature (e.g., Coordination given Leadership's text) and drops Data literacy."
+  },
+  {
+    "query_id": "adv_v10",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: All 8 steps across 3 stages correct; 'Funding' bullet is truncated in the PDF and the answer marks the gap with brackets."
+  },
+  {
+    "query_id": "adv_v11",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: All 8 steps across 3 stages correct. Borderline: adds 'to improve interoperability' after 'Increase IXPs and data centers to improve the ...' where the PDF text is cut off; this clause was not asked, so kept as pass but flagged."
+  },
+  {
+    "query_id": "adv_v12",
+    "pass": false,
+    "answer_grade": 1,
+    "citation_support": [
+      false,
+      false
+    ],
+    "notes": "FAIL (series mapping): established values 24/66/65/86 and gap 62 correct, but in-progress values shifted by one group (gave 6/14/12/15 instead of 14/12/15/6)."
+  },
+  {
+    "query_id": "adv_v13",
+    "pass": false,
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ],
+    "notes": "FAIL (wrong panel): reported panel b (% of top-25 websites: 28.3, 11.4, ...) and invented 'Others 33.7%'; panel a pie is Google 12, Netflix 11, Facebook 8, Microsoft 5, Apple 4, Amazon 3, Others 57."
+  },
+  {
+    "query_id": "adv_v14",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Both x-axes, country coverage and R² (0.22 / 0.23) correct."
+  },
+  {
+    "query_id": "adv_v15",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Measure, Jakarta, Feb 1-Nov 15 2020 vs baseline, and three wealth bands correct."
+  },
+  {
+    "query_id": "adv_v16",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: Seven data types, Feb-Sep 2020, CORD-19 source, overlap reason correct."
+  },
+  {
+    "query_id": "adv_v17",
+    "pass": false,
+    "answer_grade": 1,
+    "citation_support": [
+      false,
+      false
+    ],
+    "notes": "FAIL (chart misread propagated): Table 6.1 part correct (39 vs 73, gap 34) but low-income established agency given as 6% (true 24%), so gap 80 instead of 62."
+  },
+  {
+    "query_id": "adv_v18",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Both figures' 'Establishing fundamentals' steps correct and attributed to the right figure."
+  },
+  {
+    "query_id": "adv_v19",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Threshold 2% of monthly income, median prices, 2018; x-axis cost per GB % GNI pc, each circle a country, R² 0.7637. Cites text chunks p187:p4/p187:p5 which hold the Figure 5.7 note and Figure 5.8 axis/R² (verified)."
+  },
+  {
+    "query_id": "adv_v20",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: 63 vs 100 (gap 37), 11 vs 44 (gap 33), metadata gap larger - all correct, both tables cited."
+  },
+  {
+    "query_id": "adv_v21",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: 85 members, ~90%, Burkina Faso vs 52 high-income, Japan G-20 2019 - all correct."
+  },
+  {
+    "query_id": "adv_v22",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "PASS: Release, re-identification by triangulation, and mitigation all correct."
+  },
+  {
+    "query_id": "adv_v23",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: Activities, purposes, 4,000 brokers and US$250 billion correct."
+  },
+  {
+    "query_id": "adv_v24",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "PASS: ICSE two-thirds vs 7% and SNA 1993 correct."
+  },
+  {
+    "query_id": "adv_v25",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly abstained: EVFTA not in Table 7.2 / report."
+  },
+  {
+    "query_id": "adv_v26",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly abstained: TikTok/ByteDance not in Figure 3.6 / report."
+  },
+  {
+    "query_id": "adv_v27",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly abstained: Figure 8.6 has no 2015-2020 series."
+  },
+  {
+    "query_id": "adv_v28",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly abstained: India DPDP Act absent."
+  },
+  {
+    "query_id": "adv_v29",
+    "pass": false,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "notes": "FAIL (status rule): agent returned status=answered instead of abstain. Content only says Table 6.1 has no regional breakdown (income groups only) and invents no scores, so a content-only reading would pass, but agent_metrics requires abstention to match status=abstain; counted as fail."
+  },
+  {
+    "query_id": "adv_v30",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly abstained: Surabaya not covered (Jakarta only)."
+  }
+]

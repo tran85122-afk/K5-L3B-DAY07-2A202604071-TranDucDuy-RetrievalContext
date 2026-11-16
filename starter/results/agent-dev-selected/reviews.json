@@ -1,0 +1,19 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "reason": "Đúng định nghĩa 'sharing and reuse' từ wdr2021:p24:p2."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true, true], "reason": "Cả wdr2021:p45:p1 và wdr2021:p50:p4 đều trực tiếp chứng minh data là inexhaustible/nonrival không mất giá trị khi dùng lại."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "reason": "Nêu đủ cả ưu điểm (timeliness, frequency, granularity) và nhược điểm (representative coverage) từ wdr2021:p48:p1."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 93% high-income và không có low-income country nào (kèm năm 2019), trích đúng wdr2021:p86:p0."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 4-6% GDP hoặc 15-20% tổng chi tiêu công, trích đúng wdr2021:p86:p2."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "reason": "Nêu đủ data intermediaries (Nielsen, Gallup, dataPublica) từ wdr2021:p113:p1."},
+  {"query_id": "q07", "answer_grade": 2, "citation_support": [true], "reason": "Đúng so sánh noon-6 p.m. vs midnight-6 a.m. (giảm một nửa tỷ lệ vỡ nợ) từ wdr2021:p120:p0."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true], "reason": "Giải thích đúng thách thức data manipulation khi dùng dữ liệu hành vi phân bổ dịch vụ từ wdr2021:p145:p2."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "reason": "Đúng sexist biases (man=computer programmer, woman=homemaker) từ wdr2021:p155:p1."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true], "reason": "Đúng wireless broadband networks từ wdr2021:p180:p2."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 40 lần (<5ms vs >200ms) tại Rwanda từ wdr2021:p190:p1."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true], "reason": "Đúng ước tính 1 tỷ người từ wdr2021:p220:p1."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 102 vụ chống độc quyền tính đến tháng 1/2020 từ wdr2021:p250:p3."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true], "reason": "Đúng đủ 4 nhóm chức năng quản trị dữ liệu từ wdr2021:p290:p0."},
+  {"query_id": "q15", "answer_grade": 2, "citation_support": [true], "reason": "Đúng Chile và tên luật quốc gia từ wdr2021:p335:p2."},
+  {"query_id": "q16", "citation_support": [], "abstention_correct": true, "reason": "Tìm kiếm 3 lượt không có thông tin về EU AI Act; từ chối đúng, không suy diễn."},
+  {"query_id": "q17", "citation_support": [], "abstention_correct": true, "reason": "Tìm kiếm 2 lượt (truy ra bẫy Việt Nam p260:p8), kiểm tra không có Nghị định 13/2023/ND-CP và từ chối đúng."}
+]

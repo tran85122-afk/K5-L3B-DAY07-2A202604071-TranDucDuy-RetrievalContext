@@ -1,0 +1,82 @@
+{
+  "split": "test",
+  "total_cases": 30,
+  "passed": 27,
+  "pass_rate": 0.9,
+  "meets_90pct_target": true,
+  "by_group": {
+    "table": {
+      "passed": 5,
+      "total": 6,
+      "pass_rate": 0.8333
+    },
+    "diagram": {
+      "passed": 4,
+      "total": 5,
+      "pass_rate": 0.8
+    },
+    "chart": {
+      "passed": 4,
+      "total": 5,
+      "pass_rate": 0.8
+    },
+    "multihop": {
+      "passed": 4,
+      "total": 4,
+      "pass_rate": 1.0
+    },
+    "text": {
+      "passed": 4,
+      "total": 4,
+      "pass_rate": 1.0
+    },
+    "unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "pass_rate": 1.0
+    }
+  },
+  "base_agent_metrics": {
+    "cases": 30,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 30,
+      "N": 30
+    },
+    "grounded_answer": {
+      "0": 1,
+      "1": 2,
+      "2": 21,
+      "N": 24,
+      "mean": 1.8333333333333333
+    },
+    "citation_validity": {
+      "n": 35,
+      "N": 35
+    },
+    "answer_citation_coverage": {
+      "n": 23,
+      "N": 23
+    },
+    "abstention": {
+      "n": 6,
+      "N": 6
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 24
+    }
+  },
+  "telemetry": {
+    "total_searches": 30,
+    "avg_searches": 1.0,
+    "llm_calls": 60,
+    "embedding_api_calls": 13,
+    "prompt_tokens": 98731,
+    "output_tokens": 8680,
+    "service_cost_usd": 0.0,
+    "latency_ms_p50": 9036.83,
+    "latency_ms_p95": 13134.56,
+    "latency_ms_max": 20424.42
+  }
+}

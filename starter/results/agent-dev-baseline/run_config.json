@@ -1,0 +1,15 @@
+{
+  "split": "dev",
+  "retriever": "tfidf",
+  "use_filter": false,
+  "top_k": 3,
+  "budget": 800,
+  "max_searches": 4,
+  "context_mode": "fifo",
+  "llm_model": "gemini-3.1-flash-lite",
+  "total_llm_calls": 37,
+  "total_prompt_tokens": 17561,
+  "total_output_tokens": 1849,
+  "total_embedding_api_calls": 0,
+  "service_cost_usd": 0.0
+}

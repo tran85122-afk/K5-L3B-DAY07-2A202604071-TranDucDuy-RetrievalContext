@@ -1,0 +1,9 @@
+[
+  {"query_id": "t16", "answer_grade": 2, "citation_support": [true], "reason": "Đúng mốc ngày 23/3/2020 và mức giảm một nửa (by half) tại các thành phố lớn của Mỹ, trích đúng wdr2021:p56:p2."},
+  {"query_id": "t17", "answer_grade": 2, "citation_support": [true], "reason": "Đúng khoảng 170–320 triệu người năm 2013, trích đúng wdr2021:p80:p0."},
+  {"query_id": "t18", "answer_grade": 2, "citation_support": [true], "reason": "Đúng yếu tố giáo dục (hoàn thành tiểu học tăng 35 điểm phần trăm), trích đúng wdr2021:p184:p1."},
+  {"query_id": "t19", "answer_grade": 2, "citation_support": [true], "reason": "Đúng hai quốc gia Kenya và Nigeria cập nhật luật bảo vệ dữ liệu năm 2019 theo GDPR, trích đúng wdr2021:p215:p0."},
+  {"query_id": "t20", "answer_grade": 2, "citation_support": [true], "reason": "Đúng Equatorial Guinea và São Tomé and Príncipe cùng lý do chậm tiến độ, trích đúng wdr2021:p295:p2."},
+  {"query_id": "t21", "citation_support": [], "abstention_correct": true, "reason": "Tìm kiếm về chứng chỉ ISO/IEC 27001 và SOC 2 cho NSO, không có bằng chứng và từ chối đúng."},
+  {"query_id": "t22", "citation_support": [], "abstention_correct": true, "reason": "Tự lọc chapter=5 tìm SpaceX Starlink tại Châu Phi cận Sahara, không có bằng chứng và từ chối đúng."}
+]

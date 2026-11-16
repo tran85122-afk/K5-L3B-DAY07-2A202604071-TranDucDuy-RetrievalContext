@@ -1,0 +1,301 @@
+=== adv_v01 [table | answerable=True] ===
+Q: In Table 2.2 (data dissemination practices by country income group), what percentages are reported for 'NSO has data portal' and 'NSO makes metadata available' in each income group, which income group has the highest data-portal share, and what is the high-income minus low-income gap for metadata?
+GOLD_CITES: ['wdr2021:p84:vis_table_2_2'] | PAGES: [84]
+REQUIRED_FACTS: ['Data portal: 84 / 91 / 95 / 92 (low, lower-middle, upper-middle, high)', 'Highest data-portal share is upper-middle-income (95)', 'Metadata: 63 / 91 / 97 / 100; gap high-low = 37 percentage points']
+EXPECTED: Table 2.2 (2019, % of population whose NSO has the attribute): NSO has data portal = 84 (low), 91 (lower-middle), 95 (upper-middle), 92 (high) -> highest is upper-middle-income (95), not high-income. NSO makes metadata available = 63 / 91 / 97 / 100 -> high minus low = 37 percentage points.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p84:vis_table_2_2'] | MS: 4884.51
+AGENT_ANSWER: According to Table 2.2, the percentages for 'NSO has data portal' are 84% (low-income), 91% (lower-middle-income), 95% (upper-middle-income), and 92% (high-income) [wdr2021:p84:vis_table_2_2]. The percentages for 'NSO makes metadata available' are 63% (low-income), 91% (lower-middle-income), 97% (upper-middle-income), and 100% (high-income) [wdr2021:p84:vis_table_2_2]. The income group with the highest share for 'NSO has data portal' is the upper-middle-income group at 95% [wdr2021:p84:vis_table_2_2]. The gap for 'NSO makes metadata available' between high-income (100%) and low-income (63%) countries is 37 percentage points [wdr2021:p84:vis_table_2_2].
+
+=== adv_v02 [table | answerable=True] ===
+Q: According to Table 8.1, which data management decisions are listed for the 'Create/receive', 'Process', 'Analyze and use', and 'Archive and preserve' stages of the data life cycle?
+GOLD_CITES: ['wdr2021:p288:vis_table_8_1'] | PAGES: [288]
+REQUIRED_FACTS: ['Create/receive: lawful use/consent; identifications for merging', 'Process: standardize units/categories; compatible formats; validate quality/relevance/integrity', 'Analyze and use: reproducibility/publish code; no identifiable data; visualize/communicate', 'Archive and preserve: classify/catalog; data dictionaries/notes; maintain access, security, integrity']
+EXPECTED: Create/receive: determine lawful use (e.g., obtain consent for collection and sharing); collect identifications that allow merging with other datasets. Process: standardize units and categories; use widely compatible and accessible formats; validate quality (accuracy), relevance and integrity. Analyze and use: ensure reproducibility and publish code/algorithms; do not publish identifiable data; visualize and communicate insights. Archive and preserve: classify and catalog data systematically; include data dictionaries and notes on how data were created; maintain access, security and integrity over time.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p288:vis_table_8_1'] | MS: 5566.08
+AGENT_ANSWER: According to Table 8.1, the data management decisions for the specified stages of the data life cycle are as follows: 
+
+- Create/receive: Determine lawful use (such as obtaining consent for data collection and sharing) and collect identifications that allow data to be merged with other datasets [wdr2021:p288:vis_table_8_1].
+- Process: Standardize units and categories (such as industry classifications), use data formats that are widely compatible and accessible, and validate the quality (accuracy), relevance, and integrity of data [wdr2021:p288:vis_table_8_1].
+- Analyze and use: Ensure reproducibility (publish code or algorithms), do not publish identifiable data, and visualize and communicate insights from data [wdr2021:p288:vis_table_8_1].
+- Archive and preserve: Classify and catalog data systematically so they can be found easily, include data dictionaries and notes on how data were created, and maintain access to data and their security and integrity over time [wdr2021:p288:vis_table_8_1].
+
+=== adv_v03 [table | answerable=True] ===
+Q: Using Table 6.1, report the six average regulatory scores for the Upper-middle-income and the Lower-middle-income groups, and identify the sub-indicator on which lower-middle-income countries score higher than upper-middle-income countries.
+GOLD_CITES: ['wdr2021:p227:vis_table_6_1'] | PAGES: [227]
+REQUIRED_FACTS: ['Upper-middle: 57, 46, 29, 74, 62, 20', 'Lower-middle: 55, 43, 38, 72, 44, 15', 'Lower-middle > upper-middle only on Nonpersonal data (38 vs 29)']
+EXPECTED: Upper-middle-income: Cybersecurity and cybercrime 57, Personal data 46, Nonpersonal data 29, E-commerce and e-transactions 74, Public intent data 62, Private intent data 20. Lower-middle-income: 55, 43, 38, 72, 44, 15. Lower-middle exceeds upper-middle only on Nonpersonal data (38 vs 29).
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p227:vis_table_6_1'] | MS: 3535.39
+AGENT_ANSWER: According to Table 6.1, the average regulatory scores for the Upper-middle-income group are 57 (Cybersecurity and cybercrime), 46 (Personal data), 29 (Nonpersonal data), 74 (E-commerce and e-transactions), 62 (Public intent data), and 20 (Private intent data) [wdr2021:p227:vis_table_6_1]. The average regulatory scores for the Lower-middle-income group are 55 (Cybersecurity and cybercrime), 43 (Personal data), 38 (Nonpersonal data), 72 (E-commerce and e-transactions), 44 (Public intent data), and 15 (Private intent data) [wdr2021:p227:vis_table_6_1]. The sub-indicator on which lower-middle-income countries score higher than upper-middle-income countries is Nonpersonal data (38 compared to 29) [wdr2021:p227:vis_table_6_1].
+
+=== adv_v04 [table | answerable=True] ===
+Q: In Table 4.1, what specific research gaps (questions) are listed under the 'Quality standards' and 'Machine learning' research areas?
+GOLD_CITES: ['wdr2021:p162:vis_table_4_1'] | PAGES: [162]
+REQUIRED_FACTS: ['Quality standards: creating/agreeing/updating/communicating standards and who participates', 'Quality standards: accuracy and precision standards for frontier private-intent applications', 'Machine learning: changing ML/spatial feature selection approach for specialized development tasks', 'Machine learning: features predicting spatial variation; predictive accuracy vs cost trade-off']
+EXPECTED: Quality standards: (1) how standards can be created, agreed on, updated and communicated to the development community, and who needs to be part of these conversations; (2) what the standards for accuracy and precision should be for frontier applications that use private intent data or combine public and private intent data, so policy makers can trust and use results. Machine learning: (1) how the approach to machine learning and spatial feature selection must change from common tasks to specialized tasks that aid development policy; (2) which features best predict spatial variation in development outcomes in different contexts, and the trade-offs between predictive accuracy and cost.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p162:vis_table_4_1'] | MS: 4257.17
+AGENT_ANSWER: According to Table 4.1, the research gaps for the specified areas are as follows: 
+
+For 'Quality standards', the research gaps are: 
+- How can standards be created, agreed on, updated, and communicated to the general development community? Who needs to be part of these conversations? 
+- To ensure that policy makers can trust and use results, what should the standards be for accuracy and precision for frontier applications that use private intent data or that combine public intent and private intent data? 
+
+For 'Machine learning', the research gaps are: 
+- How does the approach to machine learning and spatial feature selection need to change from common machine learning tasks to more specialized tasks that will aid development policy? 
+- Which features best predict spatial variation in development outcomes in different contexts? What are the trade-offs between predictive accuracy and cost? [wdr2021:p162:vis_table_4_1]
+
+=== adv_v05 [table | answerable=True] ===
+Q: What 'Objectives' column entries does Table 8.3 give for data aggregators/data brokers, for data pools, and for data trusts?
+GOLD_CITES: ['wdr2021:p298:vis_table_8_3'] | PAGES: [298]
+REQUIRED_FACTS: ['Aggregators/brokers: transform raw data into more consumable information', 'Data pools: incentives for competitors to share/combine data for common use within sectors', 'Data trusts: facilitate sharing of sensitive data; collective bargaining power to individuals']
+EXPECTED: Data aggregators/brokers: transform raw data into more consumable information. Data pools: increase incentives for competitors to share and combine data resources for common use within sectors. Data trusts: facilitate sharing of sensitive data and provide collective bargaining power to individuals.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p298:vis_table_8_3', 'wdr2021:p298:p6'] | MS: 4058.0
+AGENT_ANSWER: According to Table 8.3, the 'Objectives' column entries for these data intermediary structures are as follows: 
+- For data aggregators and data brokers: 'Transform raw data into more consumable information.' [wdr2021:p298:vis_table_8_3, wdr2021:p298:p6]
+- For data pools: 'Increase incentives for competitors to share and combine data resources for common use within sectors.' [wdr2021:p298:vis_table_8_3, wdr2021:p298:p6]
+- For data trusts: 'Facilitate sharing of sensitive data and provide collective bargaining power to individuals.' [wdr2021:p298:vis_table_8_3, wdr2021:p298:p6] [wdr2021:p298:vis_table_8_3] [wdr2021:p298:p6]
+
+=== adv_v06 [table | answerable=True] ===
+Q: Table 7.2 compares key provisions on digital trade in recent trade agreements. Which agreements (with years) form its columns, which provisions form its rows, and how does the table note say the cells should be read?
+GOLD_CITES: ['wdr2021:p264:vis_table_7_2'] | PAGES: [264]
+REQUIRED_FACTS: ['8 agreements with years 2004, 2014, 2015, 2018, 2019, 2020 x3', '9 provision rows incl. unrestricted cross-border data flows, prohibition of data localization, customs duties', 'Legend: binding vs soft law provision; empty = no provision']
+EXPECTED: Columns (8): US–Singapore FTA (2004), Canada–EU CETA (2014), ChAFTA (2015), CPTPP (2018), ASEAN (2019), USMCA (2020), DEPA (2020), RCEP (2020). Rows (9): nondiscrimination of digital products; e-documents and e-signatures; paperless trading; online consumer protection; privacy protection; cybersecurity; unrestricted cross-border data flows; prohibition of data localization; customs duties. Note: one symbol marks a binding provision, another marks a soft law provision, and an empty cell means no provision.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p264:vis_table_7_2'] | MS: 3502.08
+AGENT_ANSWER: Table 7.2 includes the following trade agreements as columns: US–Singapore FTA (2004), Canada–EU CETA (2014), ChAFTA (2015), CPTPP (2018), ASEAN (2019), USMCA (2020), DEPA (2020), and RCEP (2020) [wdr2021:p264:vis_table_7_2]. The rows consist of the following provisions: Nondiscrimination of digital products, E-documents and e-signatures, Paperless trading, Online consumer protection, Privacy protection, Cybersecurity, Unrestricted cross-border data flows, Prohibition of data localization, and Customs duties [wdr2021:p264:vis_table_7_2]. According to the table note, the cells should be read as follows: a vertical bar (|) indicates a binding provision, a bullet point indicates a soft law provision, and an empty cell indicates no provision [wdr2021:p264:vis_table_7_2].
+
+=== adv_v07 [diagram | answerable=True] ===
+Q: Figure 1.3 shows three pathways along which data can foster development. Which outcomes does it show as positive impacts and which as negative impacts, and how does the figure distinguish them?
+GOLD_CITES: ['wdr2021:p54:vis_figure_1_3'] | PAGES: [54]
+REQUIRED_FACTS: ['Positive: greater transparency, greater accountability, better policy making and service delivery, increased business opportunities', 'Negative: criminal activity/dark net, political surveillance, market concentration, widening inequality, discrimination', 'Green = positive, red = negative']
+EXPECTED: Positive impacts (green): greater transparency, greater accountability, better policy making and service delivery, increased business opportunities (leading to development). Negative impacts (red): criminal activity/dark net, political surveillance, market concentration, widening inequality, discrimination. The note states positive impacts are green and negative impacts red; the pathways run through individuals/civil society/academia, government/international organizations, and the private sector.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p54:vis_figure_1_3', 'wdr2021:p55:p8'] | MS: 3432.66
+AGENT_ANSWER: Figure 1.3 identifies positive impacts (shown in green) and negative impacts (shown in red) resulting from the three pathways through which data can foster development [wdr2021:p54:vis_figure_1_3, wdr2021:p55:p8]. Positive impacts include greater transparency, greater accountability, better policy making and service delivery, and increased business opportunities [wdr2021:p54:vis_figure_1_3]. Negative impacts include criminal activity and the dark net, political surveillance, market concentration, widening inequality, and discrimination [wdr2021:p54:vis_figure_1_3]. The figure distinguishes these impacts by color, using green for positive outcomes and red for negative ones [wdr2021:p54:vis_figure_1_3, wdr2021:p55:p8]. [wdr2021:p55:p8]
+
+=== adv_v08 [diagram | answerable=True] ===
+Q: In Figure 1.5 (data flowing safely across stakeholders in an integrated national data system), which stakeholder groups surround the data, and which data attributes are listed?
+GOLD_CITES: ['wdr2021:p61:vis_figure_1_5'] | PAGES: [61]
+REQUIRED_FACTS: ['Stakeholders: academic institutions, government entities, civil society and individuals, international organizations, private sector', 'Attributes: produced, protected, open, quality controlled, used and reused']
+EXPECTED: Five stakeholder groups: academic institutions, government entities, civil society and individuals, international organizations, and the private sector. Data attributes: produced, protected, open, quality controlled, and used and reused.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p61:vis_figure_1_5', 'wdr2021:p61:p3'] | MS: 35504.31
+AGENT_ANSWER: In Figure 1.5, the stakeholder groups surrounding the data are government entities, international organizations, civil society and individuals, academic institutions, and the private sector [wdr2021:p61:vis_figure_1_5, wdr2021:p61:p3]. The data attributes listed are produced, protected, open, quality controlled, and used and reused [wdr2021:p61:vis_figure_1_5, wdr2021:p61:p3]. [wdr2021:p61:vis_figure_1_5] [wdr2021:p61:p3]
+
+=== adv_v09 [diagram | answerable=True] ===
+Q: What features of well-functioning institutions for effective data governance are shown in Figure 8.7, and what does the figure say each feature should do?
+GOLD_CITES: ['wdr2021:p301:vis_figure_8_7'] | PAGES: [301]
+REQUIRED_FACTS: ['Coordination, Leadership, Multistakeholder governance, Transparency, Functional autonomy, Data literacy', 'Correct description for each of the six features']
+EXPECTED: Within a performance-enhancing environment: Coordination — create incentives for collaborative, user-centric decision-making; Leadership — mobilize data champions in positions of power to create a culture of data sharing and use; Multistakeholder governance — sustain outcomes through inclusive and legitimate stakeholder engagement; Transparency — build trust by promoting participation and accountability in policy making; Functional autonomy — promote institutional independence and autonomy for effective performance; Data literacy — invest in technical capacity, resources and data skills for civil servants.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p301:vis_figure_8_7', 'wdr2021:p301:p5'] | MS: 5871.4
+AGENT_ANSWER: Figure 8.7 identifies six features of well-functioning institutions for effective data governance and describes their roles as follows: 
+
+1. **Performance-enhancing environment**: Create incentives to encourage collaborative and user-centric decision-making [wdr2021:p301:vis_figure_8_7, wdr2021:p301:p5].
+2. **Coordination**: Mobilize data champions in positions of power to create a culture of data sharing and use [wdr2021:p301:vis_figure_8_7, wdr2021:p301:p5].
+3. **Leadership**: Sustain outcomes through inclusive and legitimate stakeholder engagement [wdr2021:p301:vis_figure_8_7, wdr2021:p301:p5].
+4. **Multistakeholder governance**: Build trust by promoting participation and accountability in policy making [wdr2021:p301:vis_figure_8_7, wdr2021:p301:p5].
+5. **Transparency**: Promote institutional independence and autonomy for effective performance [wdr2021:p301:vis_figure_8_7, wdr2021:p301:p5].
+6. **Functional autonomy**: Invest in increasing technical capacity, resources, and data skills for civil servants [wdr2021:p301:vis_figure_8_7, wdr2021:p301:p5]. [wdr2021:p301:vis_figure_8_7] [wdr2021:p301:p5]
+
+=== adv_v10 [diagram | answerable=True] ===
+Q: According to Figure 9.4, what steps are proposed for integrating civil society into the national data system at each of the three stages (establishing fundamentals, initiating data flows, optimizing the system)?
+GOLD_CITES: ['wdr2021:p333:vis_figure_9_4'] | PAGES: [333]
+REQUIRED_FACTS: ['Fundamentals: laws on rights to produce/use/disseminate data; watchdogs; funding', 'Initiating: data literacy; common standards; independent quality control unit', 'Optimizing: institutionalize use of citizen-generated data; include civil society in planning/strategy']
+EXPECTED: Establishing fundamentals: laws and regulations protecting people's rights to produce, use and disseminate data; incentives — create civil society watchdogs to monitor compliance; funding — ensure civil society has funding and resources for data production and use. Initiating data flows: human capital — improve data literacy via joint projects, training, secondments and the education system; infrastructure policies — adopt common standards that improve quality and interoperability; trust — an independent scientific quality control unit. Optimizing the system: institutions — institutionalize collaboration for systematic use of citizen-generated data in decision-making; incentives — include civil society in planning, high-level decisions and strategy setting.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p333:vis_figure_9_4'] | MS: 4503.12
+AGENT_ANSWER: According to Figure 9.4, the steps for integrating civil society into the national data system are divided into three stages: 
+
+1. **Establishing fundamentals**: 
+   - Laws and regulations: Institute laws protecting people’s rights to produce, use, and disseminate data. 
+   - Incentives: Create civil society watchdogs to monitor compliance with the rules of the system. 
+   - Funding: Ensure that civil [society has] resources for data production and use. 
+
+2. **Initiating data flows**: 
+   - Human capital: Improve data literacy through joint projects, training, secondments, and the education system. 
+   - Infrastructure policies: Ensure adoption of common standards that improve data quality and interoperability. 
+   - Trust: Promote trust through the establishment of an independent scientific quality control unit. 
+
+3. **Optimizing the system**: 
+   - Institutions: Institutionalize collaboration for the systematic use of citizen-generated data in decision-making. 
+   - Incentives: Include civil society in planning, high-level decisions, and strategy setting for the national data system. [wdr2021:p333:vis_figure_9_4]
+
+=== adv_v11 [diagram | answerable=True] ===
+Q: According to Figure 9.6, what steps are recommended for integrating the private sector into the national data system at the 'Establishing fundamentals', 'Initiating data flows', and 'Optimizing the system' stages?
+GOLD_CITES: ['wdr2021:p337:vis_figure_9_6'] | PAGES: [337]
+REQUIRED_FACTS: ['Fundamentals: national transmission networks for broadband; skills/appliances for workers and businesses', 'Initiating: IXPs and data centers; compensation/noncompensation schemes; data stewards', 'Optimizing: stringent pro-business quality/privacy standards; colocation data centers; trusted data intermediaries']
+EXPECTED: Establishing fundamentals: infrastructure policies — construct national transmission networks for high-speed wireless broadband; human capital — equip workers and businesses with skills and appliances to produce and use data. Initiating data flows: infrastructure policies — increase IXPs and data centers; incentives — adopt compensation and noncompensation schemes to promote data exchanges; data demand — promote the role of data stewards in business. Optimizing the system: incentives — increase interoperability through stringent data quality and privacy standards that are also pro-business; infrastructure policies — expand access to colocation data centers; trust — engage business through trusted data intermediaries.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p337:vis_figure_9_6'] | MS: 3538.86
+AGENT_ANSWER: According to Figure 9.6, the recommended steps for integrating the private sector into the national data system are as follows [wdr2021:p337:vis_figure_9_6]:
+
+* **Establishing fundamentals:**
+    * Infrastructure policies: Construct national transmission networks for high-speed wireless broadband access.
+    * Human capital: Equip workers and businesses with the skills and appliances needed to produce and use data.
+
+* **Initiating data flows:**
+    * Infrastructure policies: Increase internet exchange points (IXPs) and data centers to improve interoperability.
+    * Incentives: Adopt compensation and noncompensation schemes to promote data exchanges.
+    * Data demand: Promote the role of data stewards in business.
+
+* **Optimizing the system:**
+    * Incentives: Increase data interoperability through the adoption of stringent data quality and privacy standards that are also pro-business.
+    * Infrastructure policies: Promote the expansion of and access to colocation data centers.
+    * Trust: Engage business through trusted data intermediaries.
+
+=== adv_v12 [chart | answerable=True] ===
+Q: In Figure 8.6, what share of countries in each income group has an established cybersecurity agency and what share has one in progress or planned? What is the high-income minus low-income gap for established agencies?
+GOLD_CITES: ['wdr2021:p297:vis_figure_8_6'] | PAGES: [297]
+REQUIRED_FACTS: ['Established: 24 / 66 / 65 / 86', 'In progress or planned: 14 / 12 / 15 / 6', 'High minus low established gap = 62 percentage points']
+EXPECTED: Share of countries with a cybersecurity agency (%), 198 economies: Low-income — established 24, in progress or planned 14; Lower-middle-income — established 66, in progress 12; Upper-middle-income — established 65, in progress 15; High-income — established 86, in progress 6. Gap for established agencies: 86 - 24 = 62 percentage points (title: only about one-quarter of low-income countries have such agencies). Bar-to-label mapping verified from the PDF text-layer coordinates (labels sit just above each bar top).
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p297:vis_figure_8_6', 'wdr2021:p297:p6'] | MS: 5337.95
+AGENT_ANSWER: Based on Figure 8.6, the shares of countries with established cybersecurity agencies and those with agencies in progress or planned by income group are as follows: 
+
+- Low-income: 24% established, 6% in progress or planned [wdr2021:p297:vis_figure_8_6, wdr2021:p297:p6].
+- Lower-middle-income: 66% established, 14% in progress or planned [wdr2021:p297:vis_figure_8_6, wdr2021:p297:p6].
+- Upper-middle-income: 65% established, 12% in progress or planned [wdr2021:p297:vis_figure_8_6, wdr2021:p297:p6].
+- High-income: 86% established, 15% in progress or planned [wdr2021:p297:vis_figure_8_6, wdr2021:p297:p6].
+
+The gap between high-income and low-income countries for established cybersecurity agencies is 62 percentage points (86% - 24%) [wdr2021:p297:vis_figure_8_6, wdr2021:p297:p6]. [wdr2021:p297:vis_figure_8_6] [wdr2021:p297:p6]
+
+=== adv_v13 [chart | answerable=True] ===
+Q: In panel a of Figure 3.6 (share of global internet traffic by firm, 2018), what percentage is shown for each named firm and for 'Others', and what combined share do the named firms account for?
+GOLD_CITES: ['wdr2021:p119:vis_figure_3_6'] | PAGES: [119]
+REQUIRED_FACTS: ['Google 12, Netflix 11, Facebook 8, Microsoft 5, Apple 4, Amazon 3, Others 57', 'Named firms combined = 43 percent']
+EXPECTED: Panel a (2018, % of total, Sandvine 2019): Google 12, Netflix 11, Facebook 8, Microsoft 5, Apple 4, Amazon 3, Others 57. The six named firms together account for 43 percent (12+11+8+5+4+3).
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p119:vis_figure_3_6'] | MS: 3821.13
+AGENT_ANSWER: In panel a of Figure 3.6, the shares of global internet traffic by firm in 2018 are: Google (28.3%), Netflix (11.4%), Microsoft (8.9%), Facebook (6.3%), Amazon (5.9%), and Verizon (5.5%) [wdr2021:p119:vis_figure_3_6]. The category 'Others' accounts for 33.7% of global internet traffic (calculated as 100% - 28.3% - 11.4% - 8.9% - 6.3% - 5.9% - 5.5% = 33.7%) [wdr2021:p119:vis_figure_3_6]. The combined share of the six named firms (Google, Netflix, Microsoft, Facebook, Amazon, and Verizon) is 66.3% [wdr2021:p119:vis_figure_3_6].
+
+=== adv_v14 [chart | answerable=True] ===
+Q: Figure 2.9 has two scatter panels relating governance to statistical performance. What does each panel plot on its x-axis, which countries does each include, and what R² is reported for each?
+GOLD_CITES: ['wdr2021:p89:vis_figure_2_9'] | PAGES: [89]
+REQUIRED_FACTS: ['Panel a: NSO independence score, only African countries, R² = 0.22', 'Panel b: RSF World Press Freedom Index, all countries with data, R² = 0.23']
+EXPECTED: Panel a: NSO independence score (Ibrahim Index of African Governance) vs statistical performance, African countries only, R² = 0.22. Panel b: RSF World Press Freedom Index (axis runs from 100 to 0) vs statistical performance, all countries with available data, R² = 0.23. Each x represents a country; both relations are positive.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p89:vis_figure_2_9', 'wdr2021:p89:p5'] | MS: 3661.14
+AGENT_ANSWER: Figure 2.9 contains two panels that plot the following: Panel a plots 'NSO independence score' on the x-axis and includes only African countries [wdr2021:p89:vis_figure_2_9, wdr2021:p89:p5]. Panel b plots 'RSF World Press Freedom Index' on the x-axis and includes all countries with data available [wdr2021:p89:vis_figure_2_9, wdr2021:p89:p5]. The reported R² values are 0.22 for panel a and 0.23 for panel b [wdr2021:p89:vis_figure_2_9]. [wdr2021:p89:p5]
+
+=== adv_v15 [chart | answerable=True] ===
+Q: What does Figure B4.1.1 measure, over what period and relative to what, and which user groups are plotted as separate series?
+GOLD_CITES: ['wdr2021:p143:vis_figure_b4_1_1'] | PAGES: [143]
+REQUIRED_FACTS: ['Change in time spent at home in Jakarta, Feb 1 – Nov 15, 2020, relative to baseline', 'Three wealth groups: low (0–40%), medium (>40–80%), high (>80–100%)']
+EXPECTED: It shows changes in the time smartphone users spent at home in Jakarta from February 1 to November 15, 2020, relative to a baseline period (with PSBB large-scale social restrictions marked). Series are by wealth of the administrative unit: low-wealth users (0–40% of wealth), medium-wealth (>40–80%), and high-wealth (>80–100%).
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p143:vis_figure_b4_1_1', 'wdr2021:p143:p4'] | MS: 34650.33
+AGENT_ANSWER: Figure B4.1.1 measures the changes in the time smartphone users spent at home in Jakarta [wdr2021:p143:vis_figure_b4_1_1, wdr2021:p143:p4]. This is measured over the period from February 1 to November 15, 2020, relative to the baseline period [wdr2021:p143:vis_figure_b4_1_1, wdr2021:p143:p4]. The user groups plotted as separate series are based on the wealth of the administrative unit: low-wealth smartphone users (0%–40% of wealth), medium-wealth smartphone users (>40%–80% of wealth), and high-wealth smartphone users (>80%–100% of wealth) [wdr2021:p143:vis_figure_b4_1_1]. [wdr2021:p143:p4]
+
+=== adv_v16 [chart | answerable=True] ===
+Q: Figure B1.4.1 tracks published COVID-19 articles by type of private intent data. Which data types are plotted, over what time span, from what source, and why does the note say the categories cannot simply be summed?
+GOLD_CITES: ['wdr2021:p56:vis_figure_b1_4_1'] | PAGES: [56]
+REQUIRED_FACTS: ['Seven data types: call detail records, cellphone, Facebook, Google Trends, big data, Twitter, social media', 'February–September 2020; CORD-19 source', 'Articles can appear in more than one category']
+EXPECTED: Articles containing 'COVID' and: call detail records, cellphone, Facebook, Google Trends, big data, Twitter, social media; February to September 2020; source CORD-19 (COVID-19 Open Research Dataset, Semantic Scholar/Allen Institute for AI). The cumulative sum is higher than the number of articles because some articles appear in more than one category.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p56:vis_figure_b1_4_1'] | MS: 3605.43
+AGENT_ANSWER: Figure B1.4.1 plots articles containing 'COVID' and the following data types: Call detail records, Cellphone, Facebook, Google Trends, Big data, Twitter, and Social media [wdr2021:p56:vis_figure_b1_4_1]. The time span covered is from February to September 2020 [wdr2021:p56:vis_figure_b1_4_1]. The source is the WDR 2021 team, based on data from the CORD-19 (COVID-19 Open Research Dataset) Semantic Scholar team, Ai2 (Allen Institute for AI) [wdr2021:p56:vis_figure_b1_4_1]. The note explains that the categories cannot simply be summed because some articles appear in more than one category [wdr2021:p56:vis_figure_b1_4_1].
+
+=== adv_v17 [multihop | answerable=True] ===
+Q: Combine Figure 8.6 and Table 6.1: for low-income versus high-income countries, what share has an established cybersecurity agency, what is their average 'Cybersecurity and cybercrime' regulatory score, and what are the high-minus-low gaps for each measure?
+GOLD_CITES: ['wdr2021:p297:vis_figure_8_6', 'wdr2021:p227:vis_table_6_1'] | PAGES: [297, 227]
+REQUIRED_FACTS: ['Agency: 24% vs 86%, gap 62 pp', 'Score: 39 vs 73, gap 34 points']
+EXPECTED: Figure 8.6: established cybersecurity agency in 24% of low-income vs 86% of high-income countries (gap 62 percentage points). Table 6.1: Cybersecurity and cybercrime score 39 (low-income) vs 73 (high-income), gap 34 points.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p227:vis_table_6_1', 'wdr2021:p297:vis_figure_8_6'] | MS: 5865.12
+AGENT_ANSWER: Based on Figure 8.6, the share of countries with an established cybersecurity agency is 6% for low-income countries and 86% for high-income countries [wdr2021:p297:vis_figure_8_6]. According to Table 6.1, the average 'Cybersecurity and cybercrime' regulatory score is 39 for low-income countries and 73 for high-income countries [wdr2021:p227:vis_table_6_1]. The high-minus-low gaps are 80 percentage points for the share of countries with an established cybersecurity agency (86% - 6%) and 34 points for the average 'Cybersecurity and cybercrime' regulatory score (73 - 39) [wdr2021:p227:vis_table_6_1, wdr2021:p297:vis_figure_8_6].
+
+=== adv_v18 [multihop | answerable=True] ===
+Q: Compare the 'Establishing fundamentals' steps in Figure 9.5 (integrating academia) with those in Figure 9.7 (integrating international and regional organizations) into the national data system.
+GOLD_CITES: ['wdr2021:p335:vis_figure_9_5', 'wdr2021:p340:vis_figure_9_7'] | PAGES: [335, 340]
+REQUIRED_FACTS: ['9.5: financial support and ICT access for academics; awareness of datasets via academia–government relationships', '9.7: funding/technical assistance; technical capacity and data literacy; regional cooperation, economies of scale, peer-to-peer learning']
+EXPECTED: Figure 9.5 (academia): infrastructure policies — ensure academics have adequate financial support and access to key ICT infrastructure; data demand — promote awareness of participants' datasets by building relationships between academia and government. Figure 9.7 (international/regional organizations): funding — seek support, including technical assistance, to improve weak parts of the data life cycle; human capital — increase technical capacity and data literacy; institutions — engage in regional data cooperation to save resources through economies of scale and facilitate peer-to-peer learning.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p335:vis_figure_9_5', 'wdr2021:p340:vis_figure_9_7'] | MS: 52389.73
+AGENT_ANSWER: The 'Establishing fundamentals' steps for integrating academia (Figure 9.5) and international/regional organizations (Figure 9.7) into the national data system differ in their focus and specific requirements: 
+
+- **Academia (Figure 9.5):** Focuses on 'Infrastructure policies' (ensuring adequate financial support and access to key ICT infrastructure for academics) and 'Data demand' (promoting awareness of participant datasets by building relationships between academia and government) [wdr2021:p335:vis_figure_9_5].
+
+- **International and Regional Organizations (Figure 9.7):** Focuses on 'Funding' (seeking support and technical assistance to improve weak parts of the data life cycle), 'Human capital' (increasing technical capacity and data literacy), and 'Institutions' (engaging in regional data cooperation to save resources through economies of scale and facilitate peer-to-peer learning) [wdr2021:p340:vis_figure_9_7].
+
+=== adv_v19 [multihop | answerable=True] ===
+Q: Using Figure 5.7 and Figure 5.8 together: what affordability threshold is drawn in Figure 5.7 and how are its group prices defined (year and statistic), and in Figure 5.8 what is on the x-axis, what does each point represent, and what R² is reported?
+GOLD_CITES: ['wdr2021:p187:vis_figure_5_7'] | PAGES: [187]
+REQUIRED_FACTS: ['5.7: threshold 2% of monthly income; median prices; 2018', '5.8: x-axis average cost per GB as % of GNI per capita; each circle a country; R² = 0.7637']
+EXPECTED: Figure 5.7: monthly price of 1 GB of mobile data by income group; affordability threshold = 2 percent of monthly income (GNI per capita); prices are median prices of the economies in each group, data as of 2018 (Cable.co.uk). Figure 5.8: x-axis = average cost per user per GB (% of GNI per capita); each circle is a country; R² = 0.7637, showing data consumption is very sensitive to price/affordability.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p187:p4', 'wdr2021:p187:p5'] | MS: 5135.45
+AGENT_ANSWER: In Figure 5.7, the affordability threshold is drawn at 2 percent of monthly income [wdr2021:p187:p4]. The group prices in this figure are defined as the median prices of the economies in each income group, based on data from 2018 [wdr2021:p187:p4]. In Figure 5.8, the x-axis represents the average cost per user per GB (% of GNI per capita) [wdr2021:p187:p5]. Each point (circle) in the figure represents a country [wdr2021:p187:p5]. The R² value reported for the relationship shown in Figure 5.8 is 0.7637 [wdr2021:p187:p5].
+
+=== adv_v20 [multihop | answerable=True] ===
+Q: Comparing Table 2.2 and Table 2.1: what are the low-income and high-income values for 'NSO makes metadata available' (Table 2.2) and for 'Open terms of use/license' (Table 2.1), and which indicator has the larger high-minus-low gap?
+GOLD_CITES: ['wdr2021:p84:vis_table_2_2', 'wdr2021:p83:vis_table_2_1'] | PAGES: [84, 83]
+REQUIRED_FACTS: ['Metadata 63 vs 100, gap 37', 'Open license 11 vs 44, gap 33', 'Metadata gap larger']
+EXPECTED: Metadata available (Table 2.2): 63% low-income vs 100% high-income, gap 37 percentage points. Open terms of use/license (Table 2.1): 11% vs 44%, gap 33 percentage points. The metadata gap (37) is larger by 4 points.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p83:vis_table_2_1', 'wdr2021:p84:vis_table_2_2'] | MS: 4617.06
+AGENT_ANSWER: Based on Table 2.2 [wdr2021:p84:vis_table_2_2], the values for 'NSO makes metadata available' are 63% for low-income countries and 100% for high-income countries, resulting in a gap of 37 percentage points. Based on Table 2.1 [wdr2021:p83:vis_table_2_1], the values for 'Open terms of use/license' are 11% for low-income countries and 44% for high-income countries, resulting in a gap of 33 percentage points. Therefore, the 'NSO makes metadata available' indicator has the larger high-minus-low gap.
+
+=== adv_v21 [text | answerable=True] ===
+Q: Regarding WTO discussions on digital trade under the Joint Statement on Electronic Commerce, how many WTO members are involved and what share of digital trade do they represent, how many low-income versus high-income countries have joined, and which country proposed a WTO data governance framework and when?
+GOLD_CITES: ['wdr2021:p264:p2', 'wdr2021:p264:p3'] | PAGES: [264]
+REQUIRED_FACTS: ['85 members, ~90% of digital trade', '1 low-income (Burkina Faso) vs 52 high-income', 'Japan, G-20 2019']
+EXPECTED: 85 WTO members accounting for nearly 90 percent of digital trade. Only one low-income country (Burkina Faso) has joined, compared with 52 high-income countries. Japan proposed a data governance framework under the WTO during its G-20 presidency in 2019.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p264:p2', 'wdr2021:p264:p3'] | MS: 6367.57
+AGENT_ANSWER: The WTO Joint Statement on Electronic Commerce involves 85 WTO members, which represent nearly 90 percent of digital trade [wdr2021:p264:p2]. Regarding the participation of different income groups, 52 high-income countries have joined the discussions, while only one low-income country, Burkina Faso, has joined [wdr2021:p264:p3]. An ambitious proposal to establish a data governance framework under the WTO was proposed by Japan in 2019 during its G-20 presidency [wdr2021:p264:p2].
+
+=== adv_v22 [text | answerable=True] ===
+Q: What happened with the deidentified medical records released in Massachusetts in the 1990s, and what does the report suggest as one way to minimize such confidentiality concerns?
+GOLD_CITES: ['wdr2021:p85:p0', 'wdr2021:p85:p1'] | PAGES: [85]
+REQUIRED_FACTS: ['Deidentified state-employee medical records released; name/address removed', 'Re-identified (incl. governor) by triangulating with public information', 'Mitigation: produce only appropriate data with clear policy purpose, no excessive collection/surveillance']
+EXPECTED: The governor of Massachusetts approved releasing deidentified medical records of state employees to researchers; although name and address were removed, a researcher triangulated the data with other public information and identified the medical records of the governor and other individuals. One mitigation is to produce only appropriate data — data that measure concepts of interest, have a clear policy purpose, and are not collected excessively or to surveil individuals.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p85:p0', 'wdr2021:p85:p1'] | MS: 5141.85
+AGENT_ANSWER: In the 1990s, the governor of Massachusetts released deidentified medical records of state employees for research purposes [wdr2021:p85:p0]. Although key identifiers like names and addresses were removed, a researcher was able to reidentify the medical records of the governor and other individuals by triangulating the data with other publicly available information [wdr2021:p85:p1]. To minimize such confidentiality concerns, the report suggests ensuring that only appropriate data are produced—specifically data that measure concepts of interest, serve a clear policy purpose, and are not the result of attempts to collect excessive information or surveil individuals [wdr2021:p85:p1].
+
+=== adv_v23 [text | answerable=True] ===
+Q: How does the report describe data brokers — what do they do, for what purposes are their profiles sold, and how many operate worldwide in an industry of what value?
+GOLD_CITES: ['wdr2021:p298:p0'] | PAGES: [298]
+REQUIRED_FACTS: ['Scrape public records, buy/license private data, build profiles', 'Marketing, risk mitigation (ID verification, fraud detection), people search', '~4,000 brokers, US$250 billion']
+EXPECTED: Data brokers scrape public records and buy or license private data to build profiles of individuals sold for profit — often for marketing, risk mitigation (including identification verification and fraud detection), and people search pages. Some 4,000 data brokers operate worldwide in an industry valued at US$250 billion.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p298:p0'] | MS: 4088.43
+AGENT_ANSWER: Data brokers are described as entities that scrape public records and buy or license private data to construct profiles of individuals for profit [wdr2021:p298:p0]. These profiles are sold for various purposes, including marketing, risk mitigation (such as fraud detection and identity verification), and people search pages [wdr2021:p298:p0]. Globally, there are approximately 4,000 data brokers operating within an industry valued at US$250 billion [wdr2021:p298:p0].
+
+=== adv_v24 [text | answerable=True] ===
+Q: What example does the report give of the income gradient in adherence to international statistical standards, and which standard is by contrast used by a large share of all countries?
+GOLD_CITES: ['wdr2021:p84:p3'] | PAGES: [84]
+REQUIRED_FACTS: ['ICSE: two-thirds of high-income vs 7% of low-income', 'SNA 1993 widely used']
+EXPECTED: The International Classification of Status in Employment is used in two-thirds of high-income countries but only 7 percent of low-income countries (figure 2.5). By contrast, a large share of all countries uses at least the 1993 System of National Accounts (SNA 1993).
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p84:p3'] | MS: 3581.24
+AGENT_ANSWER: The report cites the International Classification of Status in Employment as an example of an indicator with a strong income gradient in adherence to international standards, noting it is used by two-thirds of high-income countries compared to only 7 percent of low-income countries [wdr2021:p84:p3]. By contrast, a large share of all countries globally uses at least the 1993 international standards for the System of National Accounts (SNA 1993) [wdr2021:p84:p3].
+
+=== adv_v25 [unanswerable | answerable=False] ===
+Q: According to Table 7.2, which digital trade provisions are binding in the EU–Vietnam Free Trade Agreement (EVFTA)?
+GOLD_CITES: [] | PAGES: []
+REQUIRED_FACTS: ['Abstain; EVFTA is not in Table 7.2 or the report']
+EXPECTED: Cannot answer: Table 7.2 covers eight agreements (US–Singapore, CETA, ChAFTA, CPTPP, ASEAN, USMCA, DEPA, RCEP); EVFTA is not included.
+AGENT_STATUS: abstain | SEARCHES: 1 | CITES: [] | MS: 30413.72
+AGENT_ANSWER: Không đủ bằng chứng để trả lời.
+
+=== adv_v26 [unanswerable | answerable=False] ===
+Q: In Figure 3.6, what share of global internet traffic in 2018 came from TikTok (ByteDance)?
+GOLD_CITES: [] | PAGES: []
+REQUIRED_FACTS: ['Abstain; TikTok/ByteDance not in Figure 3.6 or the report']
+EXPECTED: Cannot answer: Figure 3.6 lists Google, Netflix, Facebook, Microsoft, Apple, Amazon and Others; TikTok/ByteDance is not shown.
+AGENT_STATUS: abstain | SEARCHES: 1 | CITES: [] | MS: 5819.48
+AGENT_ANSWER: Không đủ bằng chứng để trả lời.
+
+=== adv_v27 [unanswerable | answerable=False] ===
+Q: In Figure 8.6, how did the share of low-income countries with an established cybersecurity agency change between 2015 and 2020?
+GOLD_CITES: [] | PAGES: []
+REQUIRED_FACTS: ['Abstain; Figure 8.6 has no time series']
+EXPECTED: Cannot answer: Figure 8.6 is a single cross-section by income group (198 economies) with no 2015 vs 2020 time series.
+AGENT_STATUS: abstain | SEARCHES: 1 | CITES: [] | MS: 4127.6
+AGENT_ANSWER: Không đủ bằng chứng để trả lời.
+
+=== adv_v28 [unanswerable | answerable=False] ===
+Q: What personal data breach notification deadline does India's Digital Personal Data Protection Act impose on data fiduciaries?
+GOLD_CITES: [] | PAGES: []
+REQUIRED_FACTS: ['Abstain; DPDP Act absent from WDR 2021']
+EXPECTED: Cannot answer: India's Digital Personal Data Protection Act (2023) post-dates WDR 2021 and is not discussed.
+AGENT_STATUS: abstain | SEARCHES: 1 | CITES: [] | MS: 4184.31
+AGENT_ANSWER: Không đủ bằng chứng để trả lời.
+
+=== adv_v29 [unanswerable | answerable=False] ===
+Q: What average regulatory scores does Table 6.1 report for the East Asia and Pacific region?
+GOLD_CITES: [] | PAGES: []
+REQUIRED_FACTS: ['Abstain; Table 6.1 has income groups, not regions']
+EXPECTED: Cannot answer: Table 6.1 reports averages by income group (high, upper-middle, lower-middle, low, global), not by region.
+AGENT_STATUS: answered | SEARCHES: 1 | CITES: ['wdr2021:p227:vis_table_6_1'] | MS: 6712.82
+AGENT_ANSWER: Table 6.1 in the World Development Report 2021 does not report regulatory scores by region; instead, it reports average scores for good-practice data governance by theme across country income groups (High-income, Upper-middle-income, Lower-middle-income, and Low-income) [wdr2021:p227:vis_table_6_1].
+
+=== adv_v30 [unanswerable | answerable=False] ===
+Q: According to Figure B4.1.1, how much did time spent at home increase for smartphone users in Surabaya during the PSBB?
+GOLD_CITES: [] | PAGES: []
+REQUIRED_FACTS: ['Abstain; Surabaya not covered']
+EXPECTED: Cannot answer: Figure B4.1.1 covers Jakarta only; Surabaya is not in the report.
+AGENT_STATUS: abstain | SEARCHES: 1 | CITES: [] | MS: 4769.79
+AGENT_ANSWER: Không đủ bằng chứng để trả lời.

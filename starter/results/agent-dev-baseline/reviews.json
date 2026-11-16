@@ -1,0 +1,19 @@
+[
+  {"query_id": "q01", "answer_grade": 1, "citation_support": [false], "reason": "Đúng một phần nhưng thiếu định nghĩa chuẩn (all types of transactions and exchanges... from open data to market-based); citation wdr2021:p55:p4 chỉ mô tả luồng trao đổi Hình 1.3, không định nghĩa cụm 'sharing and reuse' (nằm ở p24:p2)."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "reason": "Đúng và trích đúng wdr2021:p45:p1."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "reason": "Đúng ưu điểm và nhược điểm từ wdr2021:p48:p1."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 93% vs 0 low-income country từ wdr2021:p86:p0."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 4-6% GDP hoặc 15-20% chi tiêu công từ wdr2021:p86:p2."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "reason": "Đúng data intermediaries từ wdr2021:p113:p1."},
+  {"query_id": "q07", "answer_grade": 2, "citation_support": [true], "reason": "Đúng so sánh tỷ lệ vỡ nợ theo khung giờ từ wdr2021:p120:p0."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true], "reason": "Đúng thách thức data manipulation từ wdr2021:p145:p2."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "reason": "Đúng sexist biases từ wdr2021:p155:p1."},
+  {"query_id": "q10", "answer_grade": 0, "citation_support": [], "reason": "Từ chối nhầm (false abstention): TF-IDF + budget=800 chỉ giữ wdr2021:p193:p4 trong context, bỏ sót wdr2021:p180:p2."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 40 lần (<5ms vs >200ms) tại Rwanda từ wdr2021:p190:p1."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true], "reason": "Đúng ước tính 1 tỷ người từ wdr2021:p220:p1."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 102 vụ chống độc quyền tính đến tháng 1/2020 từ wdr2021:p250:p3."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 4 nhóm chức năng từ wdr2021:p290:p0."},
+  {"query_id": "q15", "answer_grade": 2, "citation_support": [true], "reason": "Đúng Chile và luật quốc gia từ wdr2021:p335:p2."},
+  {"query_id": "q16", "citation_support": [], "abstention_correct": true, "reason": "Tìm kiếm 2 lượt không thấy EU AI Act; từ chối đúng."},
+  {"query_id": "q17", "citation_support": [], "abstention_correct": true, "reason": "Tìm kiếm 3 lượt không thấy Nghị định 13/2023/ND-CP; từ chối đúng."}
+]

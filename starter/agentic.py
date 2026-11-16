@@ -28,9 +28,20 @@ class Retriever(Protocol):
         ...
 
 
+def _order_candidates(candidates: list[dict[str, Any]], latest: list[dict[str, Any]], context_mode: str) -> list[dict[str, Any]]:
+    if context_mode == 'fifo':
+        return candidates
+    if context_mode == 'latest_priority':
+        # Prioritize chunks from the latest refined search, then retain deduplicated earlier candidates.
+        latest_ids = {c['id'] for c in latest}
+        earlier = [c for c in candidates if c['id'] not in latest_ids]
+        return list(latest) + earlier
+    raise ValueError(f'context_mode không hợp lệ: {context_mode!r}')
+
+
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800, context_mode: str = 'fifo') -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
@@ -55,8 +66,9 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             if len(results) > top_k or len({r['id'] for r in results}) != len(results):
                 raise ValueError('retriever phải trả tối đa top_k chunk ID duy nhất')
             candidates.extend(results)
-            context, ids = pack_context(candidates, budget=budget)
-            chunks = {c['id']: c for c in candidates if c['id'] in ids}
+            ordered = _order_candidates(candidates, results, context_mode)
+            context, ids = pack_context(ordered, budget=budget)
+            chunks = {c['id']: c for c in ordered if c['id'] in ids}
             events.append({'event': 'search', 'query': query, 'filter': filters, 'results': results,
                            'context': context, 'context_ids': ids})
             # Send only the latest cumulative context; avoid multiplying the budget.

@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "adv_t01",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 2.1: all 5 indicators across all 4 income groups match verbatim plus High-Low machine-readable gap = 44 percentage points."
+  },
+  {
+    "query_id": "adv_t02",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Table 4.1: all 7 research areas and footnote b (re-identification risk as ML/computing advance) supported by vis_table_4_1 and p162:p6."
+  },
+  {
+    "query_id": "adv_t03",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 5.1: complete comparison of Connecting people vs Connecting countries across all 3 maturity stages."
+  },
+  {
+    "query_id": "adv_t04",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 6.1: all 18 Safeguards and Enablers numeric scores (0-100) for High-income, Low-income, and Global match exactly."
+  },
+  {
+    "query_id": "adv_t05",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 7.1: Limited, Conditional, and Open transfers models compared accurately across all four columns."
+  },
+  {
+    "query_id": "adv_t06",
+    "pass": false,
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "FAIL (false abstention): Table 8.3 chunk exists, but Gemini returned malformed multi-item/non-dict JSON on turn 2 triggering safe abstention fallback."
+  },
+  {
+    "query_id": "adv_t07",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure O.1: all 3 data channels, 4 green positives, 5 red risks, and two-way Reuse flows accurately described."
+  },
+  {
+    "query_id": "adv_t08",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure O.6: 5 actions, 5 participants, 4 pillars, and 5 foundation elements accurately listed."
+  },
+  {
+    "query_id": "adv_t09",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Figure 3.1: XY column extraction recovered all 4 intermediate boxes (including Quality improvements) and all 5 development outcomes; both citations valid."
+  },
+  {
+    "query_id": "adv_t10",
+    "pass": false,
+    "answer_grade": 1,
+    "citation_support": [true],
+    "notes": "FAIL (partial column error): correctly placed Balloons and drones under Last mile (<1-5 km), but assigned Cellular towers to Middle-mile instead of Last mile."
+  },
+  {
+    "query_id": "adv_t11",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Figure 9.3: all 5 bullets in Establishing fundamentals, 3 in Initiating data flows (including common standards), and 3 in Optimizing the system match XY PDF coords."
+  },
+  {
+    "query_id": "adv_t12",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure 3.5: Panel a (100%, 94%, 78%) and Panel b (17.42, 13.12, 13.04, 7.01 min) exact."
+  },
+  {
+    "query_id": "adv_t13",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure 4.2: US/China/Europe shares in Panel a (59/11/10%) vs Panel b (20/29/18%) plus India 8% exact."
+  },
+  {
+    "query_id": "adv_t14",
+    "pass": false,
+    "answer_grade": 1,
+    "citation_support": [true, true],
+    "notes": "FAIL (partial bar misread): 2015-2018 trends and coverage extremes (<1% vs 29%) plus South Asia 64% usage gap correct, but cited 15% (ECA) instead of 11% as North America usage gap."
+  },
+  {
+    "query_id": "adv_t15",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure 5.6: Panel a (7.1, 2.8, 1.3, 0.2, 3.7 GB) and Panel b extremes (MENA 7.4 vs SSA 0.3 GB) exact."
+  },
+  {
+    "query_id": "adv_t16",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Figure 7.2: 62 High-income vs 40 Middle-income cases and leading sectoral shares exact across both citations."
+  },
+  {
+    "query_id": "adv_t17",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Multihop Fig 8.3 + 8.4/8.5: Low 0% vs High 53% (56% separate), DPA 3% vs 81%, Antitrust 52% vs 75% exact; valid citations list [vis_figure_8_3, vis_figure_8_4]."
+  },
+  {
+    "query_id": "adv_t18",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Multihop Fig 8.2 + Table 8.2: all 4 thematic clusters, all bulleted sub-functions, and all indicative institutions covered cleanly from vis_table_8_2."
+  },
+  {
+    "query_id": "adv_t19",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Multihop Fig 5.6 + Table 5.1: correctly computed 6.9 GB (High-Low) and 6.8 GB (High-SSA) gaps and sequenced Stage 1-2 policies."
+  },
+  {
+    "query_id": "adv_t20",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Multihop Table 6.1 + Table 7.1: 44 Personal data vs 73 E-commerce scores plus Limited/Conditional/Open trade-offs exact."
+  },
+  {
+    "query_id": "adv_t21",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Text p.120: price comparison website vs search engine ads default likelihood and traffic/weather/network machine data exact."
+  },
+  {
+    "query_id": "adv_t22",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Text p.218: copyright/IPR audit barriers, accountability/discrimination risks, and 2019 OECD/G-20 principles supported by p218:p0 and p218:p1."
+  },
+  {
+    "query_id": "adv_t23",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true, true],
+    "notes": "Text p.252: killer/zombie acquisitions, gig-economy buyer/employer bargaining power, and Austria/Germany/Japan transaction-value thresholds across p252:p0,p2,p4."
+  },
+  {
+    "query_id": "adv_t24",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Text p.294: Open Definition (2012), open data licensing (2013), Open Data Charter (2015), and ASEAN Framework (2018) supported by p294:p0 and p294:p1."
+  },
+  {
+    "query_id": "adv_t25",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: correctly abstained on post-2021 GPT-4/Claude 3 Opus pricing and compute."
+  },
+  {
+    "query_id": "adv_t26",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: correctly abstained on post-2021 Vietnam Resolution 175/NQ-CP and 2024 Law on Data."
+  },
+  {
+    "query_id": "adv_t27",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: Fig 5.3 distractor — correctly abstained on 2022-2024 ASEAN 5G percentages."
+  },
+  {
+    "query_id": "adv_t28",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: Table 2.1 distractor — correctly abstained on individual Thailand/Vietnam/Philippines ODIN scores."
+  },
+  {
+    "query_id": "adv_t29",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: Table 8.3 distractor — correctly abstained on Acxiom/Experian/LunaDNA revenues and headcounts."
+  },
+  {
+    "query_id": "adv_t30",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: Fig 5.10 distractor — correctly abstained on per-country cryptocurrency mining TWh figures."
+  }
+]

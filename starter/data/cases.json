@@ -1,0 +1,189 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What does the Report mean by the phrase \"sharing and reuse\"?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why can data be called an inexhaustible resource?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What do new private data sources offer compared with traditional public intent data, and what is their weakness?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What share of high-income countries have a fully funded national statistical plan, compared with low-income countries?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How much does the Education 2030 Framework for Action urge countries to spend on education?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which kinds of firms produce data as their primary output?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In the German e-commerce study, how did the time of purchase relate to payment default?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What problem arises when individual data patterns are used to decide who is eligible for services?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What kind of bias appeared in word embeddings trained on Google News?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which technology has become the most relevant way to access data services in low- and middle-income countries?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How much faster is a locally hosted website in Rwanda than one hosted abroad?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "How many people worldwide lack government-recognized proof of identity?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How many antitrust cases related to the data economy had been finalized worldwide as of January 2020?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Into which thematic clusters are data governance functions divided?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In which country did a legal mandate for civil society participation lead the NSO to create a civil society council?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "What are the maximum administrative fine tiers (in euros and percentage of global annual turnover) under the EU Artificial Intelligence Act (EU AI Act)?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified across all 1,495 chunks (201 extracted pages of WDR 2021): 'AI Act' / 'Artificial Intelligence Act' has 0 occurrences; WDR 2021 was published in 2021 before the EU AI Act."
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Under Vietnam's Decree 13/2023/ND-CP on Personal Data Protection, within how many hours must a data controller notify the authority of a data breach?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified across all 1,495 chunks: 'Decree 13' has 0 occurrences; the 5 chunks mentioning Vietnam (pages 35, 260, 261, 268, 269) discuss trade/e-commerce/statistics, not Decree 13/2023/ND-CP."
+  },
+  {
+    "id": "t16",
+    "split": "test",
+    "question": "By what date and by how much did GPS location analysis show social distancing policies reduced mobility in major US cities?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "t17",
+    "split": "test",
+    "question": "In 2013, how many people globally were estimated to be missing from population census frames?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t18",
+    "split": "test",
+    "question": "Which individual factor had the largest positive effect on the likelihood of internet uptake in the 22 developing countries surveyed in 2017/18?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t19",
+    "split": "test",
+    "question": "Which two African countries updated their data protection legal regimes in 2019 using instruments reflecting elements of the GDPR?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "t20",
+    "split": "test",
+    "question": "Which two countries did EITI delist in 2010, and for what reason?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t21",
+    "split": "test",
+    "question": "Does the Report mandate ISO/IEC 27001 or SOC 2 Type II certification for national statistical offices?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified across all 1,495 chunks: '27001' and 'SOC 2' have 0 occurrences in the entire corpus."
+  },
+  {
+    "id": "t22",
+    "split": "test",
+    "question": "What average download speed (in Mbps) and monthly subscription price did SpaceX Starlink achieve in Sub-Saharan Africa according to Chapter 5?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified across all 1,495 chunks: 'Starlink' and 'SpaceX' have 0 occurrences; chunk wdr2021:p183:p5 mentions low-earth orbit satellites conceptually without Starlink speeds or prices."
+  }
+]

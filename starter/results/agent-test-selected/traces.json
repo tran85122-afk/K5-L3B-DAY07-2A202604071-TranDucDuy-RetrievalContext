@@ -1,0 +1,846 @@
+[
+  {
+    "query_id": "t16",
+    "split": "test",
+    "question": "By what date and by how much did GPS location analysis show social distancing policies reduced mobility in major US cities?",
+    "answerable": true,
+    "filter_applied": {
+      "chapter": "1"
+    },
+    "status": "answered",
+    "answer": "GPS location analysis indicated that by March 23, 2020, social distancing policies had reduced mobility in major US cities by half [wdr2021:p56:p2].",
+    "citations": [
+      "wdr2021:p56:p2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "GPS location analysis social distancing mobility reduction major US cities date amount",
+        "filter": {
+          "chapter": "1"
+        },
+        "results": [
+          {
+            "id": "wdr2021:p56:p2",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 56,
+            "text": "Data collected through mobile phones, such as call detail records\nand global positioning system (GPS) location data,\nproved extremely valuable in quantifying the effectiveness of policies ranging from partial curfews to strict\nlockdowns.a These data enabled measurement of population density, travel patterns, and population mixing in\nreal time and at high resolution, making it possible to\nbetter target policy interventions and inform epidemiological modeling. Analysis of GPS locations showed that\nby March 23, 2020, social distancing policies had helped\nreduce mobility in major US cities by half. b In Colombia,\nIndonesia, and Mexico, travel restrictions and lockdowns\non mobility had different effects on mobility across\nsocioeconomic groups.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "1",
+              "char_end": 1587,
+              "language": "en",
+              "char_start": 838,
+              "chapter_title": "Harnessing the value of data for the poor",
+              "document_type": "report"
+            },
+            "score": 0.032787,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p49:p2",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 49,
+            "text": "b\nAsking questions about symptoms enabled the research\nteam to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and\ntravel outside the home, enabled the team to measure\nhow much a household member adhered to social distancing guidelines.\nThe test results were conveyed to the household\nmember before the fieldworkers left the dwelling, and\ninformation on positive tests was sent to health authorities to help them track the spread of the virus. In May,\n25,025 interviews in 133 “sentinel cities” were completed\nin the baseline survey. Cities were chosen because of\ntheir primacy in the local region as hubs of commerce\nand services for surrounding urban and rural areas.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "1",
+              "char_end": 2150,
+              "language": "en",
+              "char_start": 1431,
+              "chapter_title": "Harnessing the value of data for the poor",
+              "document_type": "report"
+            },
+            "score": 0.031514,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p56:p3",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 56,
+            "text": "Those in the top decile of wealth\nreduced their mobility up to twice as much as those in\nthe bottom decile. c\nDespite the potential of deploying mobility data in\nthe fight against COVID-19, their impact on policy has\nbeen limited in lower-income countries. Bottlenecks\ninclude a lack of technical expertise among government\norganizations; restrictions on data access, especially\nfrom mobile network operators; and a lack of investment\nand political will required to scale up onetime projects. d\nA review of the academic literature produces a\nbroader look at the impact of repurposed data on\nthe study of COVID-19 (figure B1.4.1 and map B1.4.1).",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "1",
+              "char_end": 2231,
+              "language": "en",
+              "char_start": 1587,
+              "chapter_title": "Harnessing the value of data for the poor",
+              "document_type": "report"
+            },
+            "score": 0.030835,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p56:p2 | starter/data/wdr2021.pdf | page 56]\nData collected through mobile phones, such as call detail records\nand global positioning system (GPS) location data,\nproved extremely valuable in quantifying the effectiveness of policies ranging from partial curfews to strict\nlockdowns.a These data enabled measurement of population density, travel patterns, and population mixing in\nreal time and at high resolution, making it possible to\nbetter target policy interventions and inform epidemiological modeling. Analysis of GPS locations showed that\nby March 23, 2020, social distancing policies had helped\nreduce mobility in major US cities by half. b In Colombia,\nIndonesia, and Mexico, travel restrictions and lockdowns\non mobility had different effects on mobility across\nsocioeconomic groups.\n\n[wdr2021:p49:p2 | starter/data/wdr2021.pdf | page 49]\nb\nAsking questions about symptoms enabled the research\nteam to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and\ntravel outside the home, enabled the team to measure\nhow much a household member adhered to social distancing guidelines.\nThe test results were conveyed to the household\nmember before the fieldworkers left the dwelling, and\ninformation on positive tests was sent to health authorities to help them track the spread of the virus. In May,\n25,025 interviews in 133 “sentinel cities” were completed\nin the baseline survey. Cities were chosen because of\ntheir primacy in the local region as hubs of commerce\nand services for surrounding urban and rural areas.",
+        "context_ids": [
+          "wdr2021:p56:p2",
+          "wdr2021:p49:p2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1577,
+    "elapsed_ms": 3243.04,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1163,
+    "output_tokens": 111,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "GPS location analysis social distancing mobility reduction major US cities date amount"
+        },
+        "prompt_tokens": 348,
+        "output_tokens": 23
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "answer",
+          "answer": "GPS location analysis indicated that by March 23, 2020, social distancing policies had reduced mobility in major US cities by half [wdr2021:p56:p2].",
+          "citations": [
+            "wdr2021:p56:p2"
+          ]
+        },
+        "prompt_tokens": 815,
+        "output_tokens": 88
+      }
+    ],
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "t17",
+    "split": "test",
+    "question": "In 2013, how many people globally were estimated to be missing from population census frames?",
+    "answerable": true,
+    "filter_applied": null,
+    "status": "answered",
+    "answer": "In 2013, it was estimated that between 170 million and 320 million people globally were missing from population census frames [wdr2021:p80:p0].",
+    "citations": [
+      "wdr2021:p80:p0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "global population census missing people estimate 2013",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2021:p80:p0",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 80,
+            "text": "the census, they can leave out some of the poorest and\nmost vulnerable. Many vulnerable groups are hard\nto count in the first place, especially when census\nenumeration focuses on residence and the concept\nof the household. These groups include the displaced,\nthe homeless, slum inhabitants, nomads, migrants,\nyoung children, and the disabled. 43 The extent of\nundercounting is difficult to measure systematically,\nbut in 2013 it was estimated that globally between 170\nmillion and 320 million people were missing from\npopulation census frames, with the poorest more\nlikely to be missed.44 As noted, in many countries the\ncensus determines the allocation of resources and\npolitical representation.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "2",
+              "char_end": 697,
+              "language": "en",
+              "char_start": 0,
+              "chapter_title": "Data as a force for public good",
+              "document_type": "report"
+            },
+            "score": 0.032787,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p155:p5",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 155,
+            "text": "Precision is an important consideration because most\nnational statistical offices will not publish imprecise estimates due to quality concerns. Furthermore, geographic\ndownscaling relies on a few key assumptions. Facebook\nassumes the population is distributed in proportion\nto the “built-up area,” which leads to inconsistencies\nbetween the estimates and the census. For example,\nbecause a smaller portion of buildings in urban areas are\nresidential, relying on built-up area to distribute population could exaggerate population counts in urban areas\ncompared with rural ones.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "4",
+              "char_end": 3667,
+              "language": "en",
+              "char_start": 3091,
+              "chapter_title": "Creative reuses of data for greater value",
+              "document_type": "report"
+            },
+            "score": 0.031514,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p155:p6",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 155,
+            "text": "An alternative method for estimating the population\nof small areas is to use “bottom-up” methods that draw\non data from survey listing exercises rather than “topdown” disaggregation of census data. “Bottom-up”\ntechniques offer the important advantage of being\nable to produce updated population estimates without\na census at a fraction of the cost. They use survey data\nto calibrate a model that relates population in the areas\nsampled by the survey to remote sensing indicators.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "4",
+              "char_end": 4147,
+              "language": "en",
+              "char_start": 3668,
+              "chapter_title": "Creative reuses of data for greater value",
+              "document_type": "report"
+            },
+            "score": 0.031498,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p80:p0 | starter/data/wdr2021.pdf | page 80]\nthe census, they can leave out some of the poorest and\nmost vulnerable. Many vulnerable groups are hard\nto count in the first place, especially when census\nenumeration focuses on residence and the concept\nof the household. These groups include the displaced,\nthe homeless, slum inhabitants, nomads, migrants,\nyoung children, and the disabled. 43 The extent of\nundercounting is difficult to measure systematically,\nbut in 2013 it was estimated that globally between 170\nmillion and 320 million people were missing from\npopulation census frames, with the poorest more\nlikely to be missed.44 As noted, in many countries the\ncensus determines the allocation of resources and\npolitical representation.\n\n[wdr2021:p155:p5 | starter/data/wdr2021.pdf | page 155]\nPrecision is an important consideration because most\nnational statistical offices will not publish imprecise estimates due to quality concerns. Furthermore, geographic\ndownscaling relies on a few key assumptions. Facebook\nassumes the population is distributed in proportion\nto the “built-up area,” which leads to inconsistencies\nbetween the estimates and the census. For example,\nbecause a smaller portion of buildings in urban areas are\nresidential, relying on built-up area to distribute population could exaggerate population counts in urban areas\ncompared with rural ones.",
+        "context_ids": [
+          "wdr2021:p80:p0",
+          "wdr2021:p155:p5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1384,
+    "elapsed_ms": 6252.87,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1129,
+    "output_tokens": 106,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "global population census missing people estimate 2013"
+        },
+        "prompt_tokens": 347,
+        "output_tokens": 22
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "answer",
+          "answer": "In 2013, it was estimated that between 170 million and 320 million people globally were missing from population census frames [wdr2021:p80:p0].",
+          "citations": [
+            "wdr2021:p80:p0"
+          ]
+        },
+        "prompt_tokens": 782,
+        "output_tokens": 84
+      }
+    ],
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "t18",
+    "split": "test",
+    "question": "Which individual factor had the largest positive effect on the likelihood of internet uptake in the 22 developing countries surveyed in 2017/18?",
+    "answerable": true,
+    "filter_applied": null,
+    "status": "answered",
+    "answer": "The individual factor with the largest positive effect on the likelihood of internet uptake in the 22 developing countries surveyed in 2017/18 is education, specifically the completion of primary education, which increases the likelihood of uptake by 35 percentage points [wdr2021:p184:p1].",
+    "citations": [
+      "wdr2021:p184:p1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "largest positive effect internet uptake 22 developing countries 2017/18 individual factor",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2021:p184:p1",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 184,
+            "text": "A suite of large sample household surveys conducted in 22 developing countries in 2017/18\nreveal that people who do not connect to broadband\nservice even when it is available are significantly\nmore likely to be poor (in the bottom 40 percent of the\nnational income distribution), less educated (having\nonly a primary education), elderly (over 50 years old),\nand female.42 Of these, the largest effect is associated\nwith education: completion of primary education\nadds 35 percentage points to the likelihood of internet\nuptake.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "5",
+              "char_end": 858,
+              "language": "en",
+              "char_start": 332,
+              "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+              "document_type": "report"
+            },
+            "score": 0.032787,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p181:p5",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 181,
+            "text": "Connected Usage gap Coverage gap\n60\n78\n56 58\n89\n28 22\n39\n15\n36 36\n11\n64\n49\n2\n<1\n6 8 6 8\n29\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nShare of population (%)\nShare of population (%)\nEast Asia and Paciﬁc\nEurope and Central Asia\nLatin America andthe CaribbeanMiddle East andNorth AfricaNorth America\nSouth Asia\nSub-Saharan Africa\n41 45 48 50\n37\n40 41 42\n21 15 11 8\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\na. Globally over time, 2015–18 b. By region, 2018\n2015 2016 2017 2018",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "5",
+              "char_end": 3335,
+              "language": "en",
+              "char_start": 2880,
+              "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+              "document_type": "report"
+            },
+            "score": 0.03009,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p184:p4",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 184,
+            "text": "A person who becomes digitally literate and therefore more motivated to access\nthe internet may then face affordability challenges\nnot relevant before.\nIndividuals are also attracted to using the internet\nwhen family members or friends do so, particularly\nwhen it comes to social media. Analysis conducted for\nthis Report found that social network effects have a\nsignificant positive impact on the usage of wireless\ninternet in low- and middle-income countries. Individuals whose five closest friends are using an online\nsocial network are 63 percent more likely to use the\ninternet than those whose closest friends are not\nalready active on social media.47\nAddressing the widespread problem of digital literacy.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "5",
+              "char_end": 2899,
+              "language": "en",
+              "char_start": 2187,
+              "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+              "document_type": "report"
+            },
+            "score": 0.029828,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p184:p1 | starter/data/wdr2021.pdf | page 184]\nA suite of large sample household surveys conducted in 22 developing countries in 2017/18\nreveal that people who do not connect to broadband\nservice even when it is available are significantly\nmore likely to be poor (in the bottom 40 percent of the\nnational income distribution), less educated (having\nonly a primary education), elderly (over 50 years old),\nand female.42 Of these, the largest effect is associated\nwith education: completion of primary education\nadds 35 percentage points to the likelihood of internet\nuptake.\n\n[wdr2021:p181:p5 | starter/data/wdr2021.pdf | page 181]\nConnected Usage gap Coverage gap\n60\n78\n56 58\n89\n28 22\n39\n15\n36 36\n11\n64\n49\n2\n<1\n6 8 6 8\n29\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nShare of population (%)\nShare of population (%)\nEast Asia and Paciﬁc\nEurope and Central Asia\nLatin America andthe CaribbeanMiddle East andNorth AfricaNorth America\nSouth Asia\nSub-Saharan Africa\n41 45 48 50\n37\n40 41 42\n21 15 11 8\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\na. Globally over time, 2015–18 b. By region, 2018\n2015 2016 2017 2018",
+        "context_ids": [
+          "wdr2021:p184:p1",
+          "wdr2021:p181:p5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1095,
+    "elapsed_ms": 4369.74,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1279,
+    "output_tokens": 139,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "largest positive effect internet uptake 22 developing countries 2017/18 individual factor"
+        },
+        "prompt_tokens": 358,
+        "output_tokens": 31
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "answer",
+          "answer": "The individual factor with the largest positive effect on the likelihood of internet uptake in the 22 developing countries surveyed in 2017/18 is education, specifically the completion of primary education, which increases the likelihood of uptake by 35 percentage points [wdr2021:p184:p1].",
+          "citations": [
+            "wdr2021:p184:p1"
+          ]
+        },
+        "prompt_tokens": 921,
+        "output_tokens": 108
+      }
+    ],
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "t19",
+    "split": "test",
+    "question": "Which two African countries updated their data protection legal regimes in 2019 using instruments reflecting elements of the GDPR?",
+    "answerable": true,
+    "filter_applied": {
+      "chapter": "6"
+    },
+    "status": "answered",
+    "answer": "Kenya and Nigeria are the two African countries that updated their data protection legal regimes in 2019 using instruments that reflect elements of the GDPR [wdr2021:p215:p0].",
+    "citations": [
+      "wdr2021:p215:p0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "African countries updated data protection laws 2019 GDPR elements",
+        "filter": {
+          "chapter": "6"
+        },
+        "results": [
+          {
+            "id": "wdr2021:p215:p0",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 215,
+            "text": "The uneven quality of data protection legislation\naffects in practice the effectiveness of safeguards for\npersonal data.\nAfter many years in the making, both Kenya and\nNigeria recently updated their legal regimes for data\nprotection. In 2019 Kenya’s new Data Protection Act\nentered into force, while Nigeria’s National Information Technology Development Agency issued a new\nData Protection Regulation. Both instruments reflect\nmany of the elements contained in the GDPR. India\nis also debating landmark data protection legislation.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "6",
+              "char_end": 531,
+              "language": "en",
+              "char_start": 0,
+              "chapter_title": "Data policies, laws, and regulations: Creating a trust environment",
+              "document_type": "report"
+            },
+            "score": 0.032787,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p210:p1",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 210,
+            "text": "In the European Union (EU),\nits General Data Protection Regulation (GDPR) came\ninto force in 2018 with its application beyond the EU’s\nborders,3 and it inspired similar legislation in other\njurisdictions, such as the US state of California.4 China\nimplemented its Personal Information Standard in\n2018, promulgated its Civil Code in 2020, and introduced a new draft Personal Data Protection Law for\npublic consultation in 2020.5 Despite these important\nadvances regarding personal data, legal frameworks\nfor data governance across much of the developing\nworld remain a patchwork, raising concerns about\nthe ability of lower-income countries to benefit from\nthe development opportunities emerging from the\nburgeoning global data economy.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "6",
+              "char_end": 1390,
+              "language": "en",
+              "char_start": 654,
+              "chapter_title": "Data policies, laws, and regulations: Creating a trust environment",
+              "document_type": "report"
+            },
+            "score": 0.031054,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p214:p5",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 214,
+            "text": "Adoption of data protection laws is comparatively\nwidespread.23 Nearly 60 percent of countries surveyed for this Report have adopted such laws, ranging\nfrom 40 percent of low-income countries to almost\n80 percent of high-income countries (figure 6.4).\nYet the quality of such legislation is uneven, with\nimportant good-practice elements often lacking.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "6",
+              "char_end": 3056,
+              "language": "en",
+              "char_start": 2705,
+              "chapter_title": "Data policies, laws, and regulations: Creating a trust environment",
+              "document_type": "report"
+            },
+            "score": 0.030835,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p215:p0 | starter/data/wdr2021.pdf | page 215]\nThe uneven quality of data protection legislation\naffects in practice the effectiveness of safeguards for\npersonal data.\nAfter many years in the making, both Kenya and\nNigeria recently updated their legal regimes for data\nprotection. In 2019 Kenya’s new Data Protection Act\nentered into force, while Nigeria’s National Information Technology Development Agency issued a new\nData Protection Regulation. Both instruments reflect\nmany of the elements contained in the GDPR. India\nis also debating landmark data protection legislation.\n\n[wdr2021:p210:p1 | starter/data/wdr2021.pdf | page 210]\nIn the European Union (EU),\nits General Data Protection Regulation (GDPR) came\ninto force in 2018 with its application beyond the EU’s\nborders,3 and it inspired similar legislation in other\njurisdictions, such as the US state of California.4 China\nimplemented its Personal Information Standard in\n2018, promulgated its Civil Code in 2020, and introduced a new draft Personal Data Protection Law for\npublic consultation in 2020.5 Despite these important\nadvances regarding personal data, legal frameworks\nfor data governance across much of the developing\nworld remain a patchwork, raising concerns about\nthe ability of lower-income countries to benefit from\nthe development opportunities emerging from the\nburgeoning global data economy.\n\n[wdr2021:p214:p5 | starter/data/wdr2021.pdf | page 214]\nAdoption of data protection laws is comparatively\nwidespread.23 Nearly 60 percent of countries surveyed for this Report have adopted such laws, ranging\nfrom 40 percent of low-income countries to almost\n80 percent of high-income countries (figure 6.4).\nYet the quality of such legislation is uneven, with\nimportant good-practice elements often lacking.",
+        "context_ids": [
+          "wdr2021:p215:p0",
+          "wdr2021:p210:p1",
+          "wdr2021:p214:p5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1790,
+    "elapsed_ms": 3586.92,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1279,
+    "output_tokens": 114,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "African countries updated data protection laws 2019 GDPR elements"
+        },
+        "prompt_tokens": 350,
+        "output_tokens": 24
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "answer",
+          "answer": "Kenya and Nigeria are the two African countries that updated their data protection legal regimes in 2019 using instruments that reflect elements of the GDPR [wdr2021:p215:p0].",
+          "citations": [
+            "wdr2021:p215:p0"
+          ]
+        },
+        "prompt_tokens": 929,
+        "output_tokens": 90
+      }
+    ],
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "t20",
+    "split": "test",
+    "question": "Which two countries did EITI delist in 2010, and for what reason?",
+    "answerable": true,
+    "filter_applied": null,
+    "status": "answered",
+    "answer": "In 2010, the EITI delisted Equatorial Guinea and São Tomé and Príncipe due to their insufficient progress against agreed-on deadlines [wdr2021:p295:p2].",
+    "citations": [
+      "wdr2021:p295:p2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "EITI delisted countries 2010 reason",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2021:p295:p2",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 295,
+            "text": "For example, the United Nations Fundamental Principles of Official Statistics guide national statistical systems that self-govern according to these principles.36\nInstitutions with internal enforcement mechanisms can be effective because they typically feature\na recognized system of incentives and penalties to\nencourage desired behaviors. For example, EITI and\nOGP have sanctioned or expelled member countries\nwhen it was determined that these countries did not\nadhere to articulated standards. 37 Both institutions\nsanctioned Azerbaijan (EITI in 2015 and OGP in 2016),\nand EITI delisted Equatorial Guinea and São Tomé\nand Príncipe in 2010 for insufficient progress against\nagreed-on deadlines.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "8",
+              "char_end": 1613,
+              "language": "en",
+              "char_start": 916,
+              "chapter_title": "Institutions for data governance: Building trust through collective action",
+              "document_type": "report"
+            },
+            "score": 0.032787,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p90:p4",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 90,
+            "text": "Low trust in the quality of public intent data. Another\nreason for lack of data use is the often low trust in the\nquality of public intent data. Although data users can\ncheck for signs of internal coherence, the accuracy of\ndata cannot be inferred from the data alone, and incorrect statistics can take years to be detected, if they are\ndetected at all.116 A survey of data producers and users\nin 140 countries found that NSO officials have much\ngreater confidence in the quality of national statistics\nthan ministry officials have.117\nLack of infrastructure to access and use the data . A\nfinal reason for lack of data use is related to the infrastructure needed to access and use data. For example,\ninternet access is key to obtaining data, but penetration rates are lower in poorer countries.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "2",
+              "char_end": 3099,
+              "language": "en",
+              "char_start": 2303,
+              "chapter_title": "Data as a force for public good",
+              "document_type": "report"
+            },
+            "score": 0.030777,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p82:p7",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 82,
+            "text": "Only 11 percent of low-income countries consistently\nmake data available with a license classifiable as open,\ncompared with 19 percent of lower-middle-income\ncountries, 22 percent of upper-middle-income countries, and 44 percent of high-income countries.\nThe Open Data Inventory assessment also reveals\nsome limitations to machine readability. To the\nextent that governments publish official statistics,\nonly 37 percent of low-income countries make at least\nsome of these available in machine readable formats,\ncompared with 51 percent of lower-middle-income\ncountries, 61 percent of upper-middle-income countries, and 81 percent of high-income countries.\nOne reason for lack of data accessibility is that data\nsystems in the public sector can be very fragmented.",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "2",
+              "char_end": 5130,
+              "language": "en",
+              "char_start": 4367,
+              "chapter_title": "Data as a force for public good",
+              "document_type": "report"
+            },
+            "score": 0.029631,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p295:p2 | starter/data/wdr2021.pdf | page 295]\nFor example, the United Nations Fundamental Principles of Official Statistics guide national statistical systems that self-govern according to these principles.36\nInstitutions with internal enforcement mechanisms can be effective because they typically feature\na recognized system of incentives and penalties to\nencourage desired behaviors. For example, EITI and\nOGP have sanctioned or expelled member countries\nwhen it was determined that these countries did not\nadhere to articulated standards. 37 Both institutions\nsanctioned Azerbaijan (EITI in 2015 and OGP in 2016),\nand EITI delisted Equatorial Guinea and São Tomé\nand Príncipe in 2010 for insufficient progress against\nagreed-on deadlines.\n\n[wdr2021:p90:p4 | starter/data/wdr2021.pdf | page 90]\nLow trust in the quality of public intent data. Another\nreason for lack of data use is the often low trust in the\nquality of public intent data. Although data users can\ncheck for signs of internal coherence, the accuracy of\ndata cannot be inferred from the data alone, and incorrect statistics can take years to be detected, if they are\ndetected at all.116 A survey of data producers and users\nin 140 countries found that NSO officials have much\ngreater confidence in the quality of national statistics\nthan ministry officials have.117\nLack of infrastructure to access and use the data . A\nfinal reason for lack of data use is related to the infrastructure needed to access and use data. For example,\ninternet access is key to obtaining data, but penetration rates are lower in poorer countries.",
+        "context_ids": [
+          "wdr2021:p295:p2",
+          "wdr2021:p90:p4"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1603,
+    "elapsed_ms": 10871.78,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1188,
+    "output_tokens": 107,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "EITI delisted countries 2010 reason"
+        },
+        "prompt_tokens": 346,
+        "output_tokens": 22
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "answer",
+          "answer": "In 2010, the EITI delisted Equatorial Guinea and São Tomé and Príncipe due to their insufficient progress against agreed-on deadlines [wdr2021:p295:p2].",
+          "citations": [
+            "wdr2021:p295:p2"
+          ]
+        },
+        "prompt_tokens": 842,
+        "output_tokens": 85
+      }
+    ],
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "t21",
+    "split": "test",
+    "question": "Does the Report mandate ISO/IEC 27001 or SOC 2 Type II certification for national statistical offices?",
+    "answerable": false,
+    "filter_applied": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "national statistical offices ISO/IEC 27001 SOC 2 Type II certification mandate",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2021:p88:p3",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 88,
+            "text": "When the law was passed in 1970, data exchanges were\nnot a concern. Although a process to modernize the\nlaw has been at the forefront of political discussions\nfor a decade, a revised version has yet to be formally\nimplemented. This issue is a concern more generally\nbecause the older the national statistical law, the lower\nis statistical performance in general and data openness\nin particular at any country income level (figure 2.8).",
+            "metadata": {
+              "part": "I",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "2",
+              "char_end": 1820,
+              "language": "en",
+              "char_start": 1385,
+              "chapter_title": "Data as a force for public good",
+              "document_type": "report"
+            },
+            "score": 0.02748,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p324:p6",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 324,
+            "text": "Box 9.1 Relationship between an integrated national data system and\na national statistical system\nA national statistical system is an ensemble of units\nwithin a country that jointly collect, protect, process, and\ndisseminate official statistics. a As such, a national statistical system is a core part of the more expansive integrated national data system. The scope of the integrated\nnational data system goes beyond official statistics to\nencompass the data produced, exchanged, and used by\nparticipants from civil society and the public and private sectors for a variety of purposes.",
+            "metadata": {
+              "part": "III",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "9",
+              "char_end": 4370,
+              "language": "en",
+              "char_start": 3783,
+              "chapter_title": "Creating an integrated national data system",
+              "document_type": "report"
+            },
+            "score": 0.027364,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p333:p0",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 333,
+            "text": "departments aimed at improving methods for the\nproduction, processing, management, deidentification, and dissemination of public intent datasets. As\npart of an expanded role in training, NSOs could also\ndevelop (or hire) staff to engage in research on new\nmethods for data collection and test the validity of\nexperimental statistics. In addition, NSOs could offer\nindependent quality assurance of the administrative\ndata products and related official statistics produced\noutside of the NSO.",
+            "metadata": {
+              "part": "III",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "9",
+              "char_end": 490,
+              "language": "en",
+              "char_start": 0,
+              "chapter_title": "Creating an integrated national data system",
+              "document_type": "report"
+            },
+            "score": 0.016393,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p88:p3 | starter/data/wdr2021.pdf | page 88]\nWhen the law was passed in 1970, data exchanges were\nnot a concern. Although a process to modernize the\nlaw has been at the forefront of political discussions\nfor a decade, a revised version has yet to be formally\nimplemented. This issue is a concern more generally\nbecause the older the national statistical law, the lower\nis statistical performance in general and data openness\nin particular at any country income level (figure 2.8).\n\n[wdr2021:p324:p6 | starter/data/wdr2021.pdf | page 324]\nBox 9.1 Relationship between an integrated national data system and\na national statistical system\nA national statistical system is an ensemble of units\nwithin a country that jointly collect, protect, process, and\ndisseminate official statistics. a As such, a national statistical system is a core part of the more expansive integrated national data system. The scope of the integrated\nnational data system goes beyond official statistics to\nencompass the data produced, exchanged, and used by\nparticipants from civil society and the public and private sectors for a variety of purposes.\n\n[wdr2021:p333:p0 | starter/data/wdr2021.pdf | page 333]\ndepartments aimed at improving methods for the\nproduction, processing, management, deidentification, and dissemination of public intent datasets. As\npart of an expanded role in training, NSOs could also\ndevelop (or hire) staff to engage in research on new\nmethods for data collection and test the validity of\nexperimental statistics. In addition, NSOs could offer\nindependent quality assurance of the administrative\ndata products and related official statistics produced\noutside of the NSO.",
+        "context_ids": [
+          "wdr2021:p88:p3",
+          "wdr2021:p324:p6",
+          "wdr2021:p333:p0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1681,
+    "elapsed_ms": 3335.39,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1244,
+    "output_tokens": 70,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "national statistical offices ISO/IEC 27001 SOC 2 Type II certification mandate"
+        },
+        "prompt_tokens": 351,
+        "output_tokens": 30
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "abstain",
+          "reason": "The provided context does not mention ISO/IEC 27001 or SOC 2 Type II certification requirements for national statistical offices."
+        },
+        "prompt_tokens": 893,
+        "output_tokens": 40
+      }
+    ],
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "t22",
+    "split": "test",
+    "question": "What average download speed (in Mbps) and monthly subscription price did SpaceX Starlink achieve in Sub-Saharan Africa according to Chapter 5?",
+    "answerable": false,
+    "filter_applied": {
+      "chapter": "5"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "SpaceX Starlink Sub-Saharan Africa average download speed monthly subscription price Chapter 5",
+        "filter": {
+          "chapter": "5"
+        },
+        "results": [
+          {
+            "id": "wdr2021:p181:p3",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 181,
+            "text": "However, rapid innovation in the mobile communications\nsector leads to a new generation of technology just\nabout every decade, ushering in substantial improvements in speed and bandwidth and making universal\ncoverage something of a moving target. In fact, 4G\ntechnology, offering speeds of 400 megabytes per\nsecond, is already widely available in the developing\nworld (figure 5.4). If 4G were used as the relevant\ntechnological benchmark, the coverage gap would\nrise from 8 percent to 20 percent in 2018, and the\nproblem of access would no longer be confined solely\nto Sub-Saharan Africa.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "5",
+              "char_end": 2345,
+              "language": "en",
+              "char_start": 1757,
+              "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+              "document_type": "report"
+            },
+            "score": 0.031778,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p188:p3",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 188,
+            "text": "This example illustrates how international bandwidth is a critical part of the data infrastructure,\nenabling data to be sent to and retrieved from anywhere in the world. The global internet bandwidth\nstood at 463 terabytes per second in 2019, almost\ntripling from 2015. Sub-Saharan Africa had the fastest\ngrowth in bandwidth of any region over the 2015–19\nperiod. It grew by 53 percent a year, reflecting a large\nincrease in capacity because of the deployment of\nnew submarine cables. However, Sub-Saharan Africa\ncontinues to lag other regions in total capacity.",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "5",
+              "char_end": 2209,
+              "language": "en",
+              "char_start": 1647,
+              "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+              "document_type": "report"
+            },
+            "score": 0.031746,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "wdr2021:p191:p7",
+            "source_id": "wdr2021",
+            "source": "starter/data/wdr2021.pdf",
+            "page": 191,
+            "text": "28 countries\nLow-income: 48%\nLower-middleincome: 30%\n29 countries\nLow-income: 38%\nLower-middleincome: 36%\n13 countries\nLow-income: 14%\nLower-middleincome: 18%\n7 countries\nLow-income: 0%\nLower-middleincome: 16%\nAverage price of\nﬁxed broadband\nper MB per month\nAverage price of\nwireless broadband\nper GB per month\nStage 3\nIXP located alongside\na colocation data centerStage 2\nDiversity of participants\nat the IXP and presence\nof major international\ncontent providers\nStage 1\nDomestic data between\nISPs exchanged at\nthe IXP\nStage 0\nData exchanged overseas\nFigure 5.11 (2 column plus margin 38p6)\n$140.00\n$5.60\n$18.30\n$4.50\n$17.10\n$2.20\n$4.30\n$0.80",
+            "metadata": {
+              "part": "II",
+              "year": 2021,
+              "title": "World Development Report 2021: Data for Better Lives",
+              "chapter": "5",
+              "char_end": 4287,
+              "language": "en",
+              "char_start": 3643,
+              "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+              "document_type": "report"
+            },
+            "score": 0.03101,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[wdr2021:p181:p3 | starter/data/wdr2021.pdf | page 181]\nHowever, rapid innovation in the mobile communications\nsector leads to a new generation of technology just\nabout every decade, ushering in substantial improvements in speed and bandwidth and making universal\ncoverage something of a moving target. In fact, 4G\ntechnology, offering speeds of 400 megabytes per\nsecond, is already widely available in the developing\nworld (figure 5.4). If 4G were used as the relevant\ntechnological benchmark, the coverage gap would\nrise from 8 percent to 20 percent in 2018, and the\nproblem of access would no longer be confined solely\nto Sub-Saharan Africa.\n\n[wdr2021:p188:p3 | starter/data/wdr2021.pdf | page 188]\nThis example illustrates how international bandwidth is a critical part of the data infrastructure,\nenabling data to be sent to and retrieved from anywhere in the world. The global internet bandwidth\nstood at 463 terabytes per second in 2019, almost\ntripling from 2015. Sub-Saharan Africa had the fastest\ngrowth in bandwidth of any region over the 2015–19\nperiod. It grew by 53 percent a year, reflecting a large\nincrease in capacity because of the deployment of\nnew submarine cables. However, Sub-Saharan Africa\ncontinues to lag other regions in total capacity.",
+        "context_ids": [
+          "wdr2021:p181:p3",
+          "wdr2021:p188:p3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 1,
+    "context_chars": 1264,
+    "elapsed_ms": 2868.37,
+    "llm_calls": 2,
+    "embedding_api_calls": 1,
+    "prompt_tokens": 1165,
+    "output_tokens": 66,
+    "turn_logs": [
+      {
+        "turn": 1,
+        "raw_action": {
+          "action": "search",
+          "query": "SpaceX Starlink Sub-Saharan Africa average download speed monthly subscription price Chapter 5"
+        },
+        "prompt_tokens": 354,
+        "output_tokens": 28
+      },
+      {
+        "turn": 2,
+        "raw_action": {
+          "action": "abstain",
+          "reason": "The provided context does not contain information regarding SpaceX Starlink's average download speed or monthly subscription prices in Sub-Saharan Africa."
+        },
+        "prompt_tokens": 811,
+        "output_tokens": 38
+      }
+    ],
+    "service_cost_usd": 0.0
+  }
+]

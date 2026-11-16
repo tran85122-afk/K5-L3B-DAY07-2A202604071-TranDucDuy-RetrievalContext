@@ -1,0 +1,277 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What does the Report mean by the phrase \"sharing and reuse\"?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 24,
+        "evidence": "The phrase “sharing and reuse” is shorthand used\nin this Report for all the types of transactions and\nexchanges of data that permit reuse"
+      }
+    ],
+    "expected_answer": "Shorthand for all types of transactions and exchanges of data that permit reuse, from government open data to market-based transactions."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why can data be called an inexhaustible resource?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 45,
+        "evidence": "An important attribute of data is that using them\ndoes not diminish their value to be reused for some\nother purpose—data are inexhaustible."
+      }
+    ],
+    "expected_answer": "Using data does not diminish their value to be reused for another purpose."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What do new private data sources offer compared with traditional public intent data, and what is their weakness?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 48,
+        "evidence": "new private data\nsources offer greatly improved timeliness, frequency,\nand granularity of data, but they may not be representative in coverage"
+      }
+    ],
+    "expected_answer": "Better timeliness, frequency and granularity, but they may not be representative in coverage."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What share of high-income countries have a fully funded national statistical plan, compared with low-income countries?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 86,
+        "evidence": "93 percent of high-income countries have a fully\nfunded national statistical plan, not a single low-income\ncountry has one"
+      }
+    ],
+    "expected_answer": "93 percent of high-income countries; not a single low-income country."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How much does the Education 2030 Framework for Action urge countries to spend on education?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 86,
+        "evidence": "at\nleast 4–6 percent of GDP or at least 15–20 percent\nof their total public expenditure to education"
+      }
+    ],
+    "expected_answer": "At least 4–6 percent of GDP or at least 15–20 percent of total public expenditure.",
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which kinds of firms produce data as their primary output?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 113,
+        "evidence": "data intermediaries, including rating services such\nas Nielsen; pollsters such as Gallup; and data aggregators such as dataPublica"
+      }
+    ],
+    "expected_answer": "Data intermediaries such as rating services (Nielsen), pollsters (Gallup) and data aggregators (dataPublica)."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In the German e-commerce study, how did the time of purchase relate to payment default?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 120,
+        "evidence": "People who made purchases\nbetween noon and 6 p.m. were half as likely to default\non their payment for the products bought as those\nwho made purchases between midnight and 6 a.m."
+      }
+    ],
+    "expected_answer": "Buyers between noon and 6 p.m. were half as likely to default as buyers between midnight and 6 a.m."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What problem arises when individual data patterns are used to decide who is eligible for services?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 145,
+        "evidence": "A key challenge to using individual data patterns to allocate resources or establish\neligibility for products and services is data manipulation"
+      }
+    ],
+    "expected_answer": "Data manipulation: people may change their behavior to look more favorable to the algorithm."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What kind of bias appeared in word embeddings trained on Google News?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 155,
+        "evidence": "When trained on Google News, word-embedding\nalgorithms aimed at measuring the similarity between\nwords tend to propagate the sexist biases reflected in\nthe text"
+      }
+    ],
+    "expected_answer": "They propagated sexist biases, e.g. associating man with computer programmer and woman with homemaker."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which technology has become the most relevant way to access data services in low- and middle-income countries?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 180,
+        "evidence": "wireless broadband networks have emerged as\nthe most relevant technology for accessing data services"
+      }
+    ],
+    "expected_answer": "Wireless broadband networks."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How much faster is a locally hosted website in Rwanda than one hosted abroad?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 190,
+        "evidence": "In Rwanda, it is 40 times faster\nto access a locally hosted website (<5 milliseconds)\nthan one hosted in the United States or Europe (>200\nmilliseconds)."
+      }
+    ],
+    "expected_answer": "About 40 times faster (<5 ms vs >200 ms).",
+    "filter": {
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "How many people worldwide lack government-recognized proof of identity?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 220,
+        "evidence": "an\nestimated 1 billion people worldwide do not have\ngovernment-recognized proof of their identity"
+      }
+    ],
+    "expected_answer": "An estimated 1 billion people."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How many antitrust cases related to the data economy had been finalized worldwide as of January 2020?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 250,
+        "evidence": "Worldwide, as of January 2020 some 102 antitrust cases\nacross 16 different sectors on abuse of dominance,\nanticompetitive agreements, and mergers had been\nfinalized."
+      }
+    ],
+    "expected_answer": "Some 102 cases across 16 sectors."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Into which thematic clusters are data governance functions divided?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 290,
+        "evidence": "strategic planning; rule making and implementation; compliance;\nand learning and evidence to provide insights and\nimprove policy making"
+      }
+    ],
+    "expected_answer": "Strategic planning; rule making and implementation; compliance; learning and evidence.",
+    "filter": {
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In which country did a legal mandate for civil society participation lead the NSO to create a civil society council?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 335,
+        "evidence": "In Chile, where civil\nsociety participation is mandated by the national Law\non Associations and Citizen Participation in Public\nManagement, the NSO has put in place a civil society\ncouncil."
+      }
+    ],
+    "expected_answer": "Chile."
+  },
+  {
+    "id": "t16",
+    "split": "test",
+    "question": "By what date and by how much did GPS location analysis show social distancing policies reduced mobility in major US cities?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 56,
+        "evidence": "Analysis of GPS locations showed that\nby March 23, 2020, social distancing policies had helped\nreduce mobility in major US cities by half."
+      }
+    ],
+    "expected_answer": "By March 23, 2020, social distancing policies had helped reduce mobility in major US cities by half.",
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "t17",
+    "split": "test",
+    "question": "In 2013, how many people globally were estimated to be missing from population census frames?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 80,
+        "evidence": "in 2013 it was estimated that globally between 170\nmillion and 320 million people were missing from\npopulation census frames, with the poorest more\nlikely to be missed."
+      }
+    ],
+    "expected_answer": "Between 170 million and 320 million people, with the poorest more likely to be missed."
+  },
+  {
+    "id": "t18",
+    "split": "test",
+    "question": "Which individual factor had the largest positive effect on the likelihood of internet uptake in the 22 developing countries surveyed in 2017/18?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 184,
+        "evidence": "Of these, the largest effect is associated\nwith education: completion of primary education\nadds 35 percentage points to the likelihood of internet\nuptake."
+      }
+    ],
+    "expected_answer": "Education: completion of primary education adds 35 percentage points to the likelihood of internet uptake."
+  },
+  {
+    "id": "t19",
+    "split": "test",
+    "question": "Which two African countries updated their data protection legal regimes in 2019 using instruments reflecting elements of the GDPR?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 215,
+        "evidence": "In 2019 Kenya’s new Data Protection Act\nentered into force, while Nigeria’s National Information Technology Development Agency issued a new\nData Protection Regulation. Both instruments reflect\nmany of the elements contained in the GDPR."
+      }
+    ],
+    "expected_answer": "Kenya (new Data Protection Act entered into force in 2019) and Nigeria (Data Protection Regulation issued by NITDA).",
+    "filter": {
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "t20",
+    "split": "test",
+    "question": "Which two countries did EITI delist in 2010, and for what reason?",
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 295,
+        "evidence": "EITI delisted Equatorial Guinea and São Tomé\nand Príncipe in 2010 for insufficient progress against\nagreed-on deadlines."
+      }
+    ],
+    "expected_answer": "Equatorial Guinea and São Tomé and Príncipe, for insufficient progress against agreed-on deadlines."
+  }
+]

@@ -1,0 +1,1367 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What does the Report mean by the phrase \"sharing and reuse\"?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 24,
+        "evidence": "The phrase “sharing and reuse” is shorthand used\nin this Report for all the types of transactions and\nexchanges of data that permit reuse"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p24:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 24,
+        "text": "The phrase “sharing and reuse” is shorthand used\nin this Report for all the types of transactions and\nexchanges of data that permit reuse, from government\nopen data initiatives for sharing data to market-based\ntransactions for data involving private firms. In theory,\ndefining clear economic property rights over data\nshould enable data to be traded widely on markets.\nBut in practice, the extent of the data trade (beyond the\nmarket for advertising) has been limited by competing\nclaims on ownership, tensions between the wide dissemination of data and incentives to accumulate more\ndata for private commercial gain, and difficulties in\nassessing the quality and accuracy of data.",
+        "metadata": {
+          "part": "overview",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "overview",
+          "char_end": 2031,
+          "language": "en",
+          "char_start": 1350,
+          "chapter_title": "Overview",
+          "document_type": "report"
+        },
+        "score": 17.605375,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p286:p0",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 286,
+        "text": "How can institutions help govern\ndata for development?\nA\ns described in part I of this Report, capturing\ngreater value from data requires sharing\nand using more data. This chapter describes\nhow institutions can help facilitate the secure flow\nof data, while ensuring their confidentiality and\nprotection in alignment with principles of the social\ncontract for data.\nFormed by state and nonstate institutions, a data\ngovernance ecosystem1 provides structure and incentives for the trusted creation, storage, processing,\nsharing, use, and destruction of data throughout their\nlife cycle. It does so by means of implementation of\npolicies, laws, platforms, 2 systems, and standards.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "8",
+          "char_end": 679,
+          "language": "en",
+          "char_start": 0,
+          "chapter_title": "Institutions for data governance: Building trust through collective action",
+          "document_type": "report"
+        },
+        "score": 11.515995,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p324:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 324,
+        "text": "As the scope of the\nsystem expands, so do the data protection requirements and the needs for safeguards against misuse.\nAn integrated national data system implies that\nall participants and stakeholders collaborate in a\nsystem in which data are safely produced, exchanged,\nand used. It does not mean that all data are stored\nin an integrated national database. And while such\ncollaboration requires close coordination and shared\ngovernance between the participants, it does not necessarily require a centralized governance structure.",
+        "metadata": {
+          "part": "III",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "9",
+          "char_end": 3222,
+          "language": "en",
+          "char_start": 2690,
+          "chapter_title": "Creating an integrated national data system",
+          "document_type": "report"
+        },
+        "score": 11.460999,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p24:p2 | starter/data/wdr2021.pdf | page 24]\nThe phrase “sharing and reuse” is shorthand used\nin this Report for all the types of transactions and\nexchanges of data that permit reuse, from government\nopen data initiatives for sharing data to market-based\ntransactions for data involving private firms. In theory,\ndefining clear economic property rights over data\nshould enable data to be traded widely on markets.\nBut in practice, the extent of the data trade (beyond the\nmarket for advertising) has been limited by competing\nclaims on ownership, tensions between the wide dissemination of data and incentives to accumulate more\ndata for private commercial gain, and difficulties in\nassessing the quality and accuracy of data.",
+    "context_ids": [
+      "wdr2021:p24:p2"
+    ],
+    "context_chars": 735,
+    "elapsed_ms": 7.939,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Why can data be called an inexhaustible resource?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 45,
+        "evidence": "An important attribute of data is that using them\ndoes not diminish their value to be reused for some\nother purpose—data are inexhaustible."
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p45:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 45,
+        "text": "An important attribute of data is that using them\ndoes not diminish their value to be reused for some\nother purpose—data are inexhaustible. But reusing or\nrepurposing data typically requires well-functioning\ndata systems that facilitate the safe flow of data in\nformats that make the data valuable to many users.\nThese systems, however, typically do not function\nwell in many low- and middle-income countries.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "1",
+          "char_end": 1175,
+          "language": "en",
+          "char_start": 766,
+          "chapter_title": "Harnessing the value of data for the poor",
+          "document_type": "report"
+        },
+        "score": 10.067946,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p289:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 289,
+        "text": "Data governance functions\nTraditionally, scholars studying how data governance\nframeworks can improve data management have\nconcentrated on private sector firms. 8 However, recognition is growing that data governance frameworks\nare also needed to guide countries’ public sectors and\nmultilateral organizations seeking to enhance the\nvalue of data to improve lives.9 Box 8.2 illustrates why\nsuch a framework is important to the functioning of a\ndata economy—and how intricate it can be—using the\nexample of digital IDs.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "8",
+          "char_end": 818,
+          "language": "en",
+          "char_start": 301,
+          "chapter_title": "Institutions for data governance: Building trust through collective action",
+          "document_type": "report"
+        },
+        "score": 9.123349,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p57:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 57,
+        "text": "In the top pathway, individuals and organized\ngroups can inflict considerable harm through cyber-\ncriminals who steal and manipulate sensitive information. The so-called dark net is a vast parallel network of hidden websites that can only be accessed\nusing specific software tools and private authorizations. It acts as an underground digital platform for\na wide array of criminal activities, facilitating illegal\ntrade in drugs, counterfeit currency, stolen goods,\ncredit card numbers, forged papers, firearms, and\nhuman organs. In addition to facilitating criminal\nactivity in the real world, the internet can be the locus\nfor cybercrime in the digital world, with burgeoning\nsecurity breaches leading to the theft of critical data\nand raising the risk of major disruptions to critical\nservices.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "1",
+          "char_end": 989,
+          "language": "en",
+          "char_start": 191,
+          "chapter_title": "Harnessing the value of data for the poor",
+          "document_type": "report"
+        },
+        "score": 8.514445,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p45:p1 | starter/data/wdr2021.pdf | page 45]\nAn important attribute of data is that using them\ndoes not diminish their value to be reused for some\nother purpose—data are inexhaustible. But reusing or\nrepurposing data typically requires well-functioning\ndata systems that facilitate the safe flow of data in\nformats that make the data valuable to many users.\nThese systems, however, typically do not function\nwell in many low- and middle-income countries.",
+    "context_ids": [
+      "wdr2021:p45:p1"
+    ],
+    "context_chars": 463,
+    "elapsed_ms": 7.747,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "What do new private data sources offer compared with traditional public intent data, and what is their weakness?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 48,
+        "evidence": "new private data\nsources offer greatly improved timeliness, frequency,\nand granularity of data, but they may not be representative in coverage"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p48:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 48,
+        "text": "cs by researchers and government officials.\nPrivate intent data are often associated with new\nsources of data produced using digital tools and\napplications that are growing rapidly. Compared\nwith traditional public intent data, new private data\nsources offer greatly improved timeliness, frequency,\nand granularity of data, but they may not be representative in coverage. New private intent data can\ncontribute significantly to addressing public sector\ndevelopment challenges. Private intent data collected\nthrough cellphones, internet usage, satellites, remote\nsensors, and other sources provide information about\nindividuals and geographic locations that traditional\nsurveys simply cannot.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "1",
+          "char_end": 1491,
+          "language": "en",
+          "char_start": 800,
+          "chapter_title": "Harnessing the value of data for the poor",
+          "document_type": "report"
+        },
+        "score": 32.19852,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p162:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 162,
+        "text": "• What are the trade-offs between granularity and precision, and what is the optimal mix for\ntargeting of development programs?\nQuality standards • How can standards be created, agreed on, updated, and communicated to the general\ndevelopment community? Who needs to be part of these conversations?\n• To ensure that policy makers can trust and use results, what should the standards be for accuracy\nand precision for frontier applications that use private intent data or that combine public intent and\nprivate intent data?\nExternal validitya\n\n• How promising is the approach of building models in countries that have data and applying them\nto countries with limited data?",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "4",
+          "char_end": 2036,
+          "language": "en",
+          "char_start": 1366,
+          "chapter_title": "Creative reuses of data for greater value",
+          "document_type": "report"
+        },
+        "score": 21.326862,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p156:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 156,
+        "text": "Scientists investigating what went wrong\nrealized that many search terms used as predictors\nwere associated with the onset of winter instead of\nthe onset of colds.80 This “overfitting” is a major concern when private intent datasets containing high-\ndimensional data (that is, data with a high number of\nfeatures or independent variables) are used to nowcast\npolicy outcomes that are infrequently observed. New\ngenerations of forecasting models based on private\nintent data should aim to rely on information coming\nfrom multiple private data sources to avoid being too\ndependent on the idiosyncrasies of a single source.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "4",
+          "char_end": 1266,
+          "language": "en",
+          "char_start": 646,
+          "chapter_title": "Creative reuses of data for greater value",
+          "document_type": "report"
+        },
+        "score": 20.752961,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p48:p1 | starter/data/wdr2021.pdf | page 48]\ncs by researchers and government officials.\nPrivate intent data are often associated with new\nsources of data produced using digital tools and\napplications that are growing rapidly. Compared\nwith traditional public intent data, new private data\nsources offer greatly improved timeliness, frequency,\nand granularity of data, but they may not be representative in coverage. New private intent data can\ncontribute significantly to addressing public sector\ndevelopment challenges. Private intent data collected\nthrough cellphones, internet usage, satellites, remote\nsensors, and other sources provide information about\nindividuals and geographic locations that traditional\nsurveys simply cannot.",
+    "context_ids": [
+      "wdr2021:p48:p1"
+    ],
+    "context_chars": 745,
+    "elapsed_ms": 9.329,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What share of high-income countries have a fully funded national statistical plan, compared with low-income countries?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 86,
+        "evidence": "93 percent of high-income countries have a fully\nfunded national statistical plan, not a single low-income\ncountry has one"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p86:p0",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 86,
+        "text": "Underinvestment by governments. Underinvestment\nin public intent data systems is widespread. Only half\nof countries had a national statistical plan that was\nfully funded in 2019 (figure 2.7). 70 Lack of national\nfunding for statistics is especially a struggle for fragile and conflict-affected countries, countries in Sub-\nSaharan Africa, and low-income countries. Whereas\n93 percent of high-income countries have a fully\nfunded national statistical plan, not a single low-income\ncountry has one.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "2",
+          "char_end": 497,
+          "language": "en",
+          "char_start": 0,
+          "chapter_title": "Data as a force for public good",
+          "document_type": "report"
+        },
+        "score": 45.444931,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p86:p5",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 86,
+        "text": "0\n20\n40\n60\n80\n100\nShare of countries with\nfully funded plan (%)\nLow-income\nLower-middle-incomeUpper-middle-income\nHigh-income\nSub-Saharan Africa\nLatin America and the Caribbean\nEast Asia and Paciﬁc\nSouth Asia\nMiddle East and North Africa\nEurope and Central Asia\nFCS\nNon-FCS\nIncome group Region FCS status\n00\n48\n3\n94\n74\n69\n50\n43\n22\n93\n61\n41",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "2",
+          "char_end": 3560,
+          "language": "en",
+          "char_start": 3221,
+          "chapter_title": "Data as a force for public good",
+          "document_type": "report"
+        },
+        "score": 33.164576,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p86:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 86,
+        "text": "With insufficient government\nfunding of data and with donors stepping in to fill\nneeds, the risk is that donor priorities will be funded\nFigure 2.7 Most countries do not fully fund their national statistical plans\nSource: WDR 2021 team calculations, based on indicators collected by the Partnership in Statistics for Development in the 21st Century (PARIS21) that are also\nused as Statistical Performance Indicators (World Bank, http://www.worldbank.org/spi). Data at http://bit.do/WDR2021-Fig-2_7.\nNote: Having a fully funded national statistical plan under implementation is Sustainable Development Goal Indicator 17.18.3. FCS = fragile and conflict-\naffected situations.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "2",
+          "char_end": 3220,
+          "language": "en",
+          "char_start": 2547,
+          "chapter_title": "Data as a force for public good",
+          "document_type": "report"
+        },
+        "score": 27.543692,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p86:p0 | starter/data/wdr2021.pdf | page 86]\nUnderinvestment by governments. Underinvestment\nin public intent data systems is widespread. Only half\nof countries had a national statistical plan that was\nfully funded in 2019 (figure 2.7). 70 Lack of national\nfunding for statistics is especially a struggle for fragile and conflict-affected countries, countries in Sub-\nSaharan Africa, and low-income countries. Whereas\n93 percent of high-income countries have a fully\nfunded national statistical plan, not a single low-income\ncountry has one.",
+    "context_ids": [
+      "wdr2021:p86:p0"
+    ],
+    "context_chars": 550,
+    "elapsed_ms": 8.357,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "How much does the Education 2030 Framework for Action urge countries to spend on education?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 86,
+        "evidence": "at\nleast 4–6 percent of GDP or at least 15–20 percent\nof their total public expenditure to education"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p86:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 86,
+        "text": "How well public data\nsystems are funded is thus also a matter of high-level\ngovernment officials recognizing the value of public\nintent data and offering leadership to encourage collection of them.72 A key factor in such an effort is the\nperceived relevance and credibility of public intent\ndata and its producers.73\nAnother reason for lack of funding for data is the\nabsence of a benchmark guiding how much governments should spend, unlike for other areas of government spending. For example, the Education 2030\nFramework for Action urges countries to allocate at\nleast 4–6 percent of GDP or at least 15–20 percent\nof their total public expenditure to education.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "2",
+          "char_end": 1787,
+          "language": "en",
+          "char_start": 1123,
+          "chapter_title": "Data as a force for public good",
+          "document_type": "report"
+        },
+        "score": 34.092822,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p184:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 184,
+        "text": "A suite of large sample household surveys conducted in 22 developing countries in 2017/18\nreveal that people who do not connect to broadband\nservice even when it is available are significantly\nmore likely to be poor (in the bottom 40 percent of the\nnational income distribution), less educated (having\nonly a primary education), elderly (over 50 years old),\nand female.42 Of these, the largest effect is associated\nwith education: completion of primary education\nadds 35 percentage points to the likelihood of internet\nuptake.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 858,
+          "language": "en",
+          "char_start": 332,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 14.254841,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p334:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 334,
+        "text": "Data literacy should also be reinforced across society more broadly. One aspect is incorporating data\nliteracy in primary and secondary education curricula (chapter 2). Empirical studies on financial literacy\nsuggest that integrating data literacy into school curricula may ultimately be more effective than targeted\nadult education. 22 Because of the relatively young\npopulations of lower- and middle-income countries,\nincorporating data literacy programs in school curricula could reap valuable returns. For example, Rwanda\nhas supported initiatives to build digital skills through\nits multistakeholder Digital Ambassador Program.",
+        "metadata": {
+          "part": "III",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "9",
+          "char_end": 3207,
+          "language": "en",
+          "char_start": 2574,
+          "chapter_title": "Creating an integrated national data system",
+          "document_type": "report"
+        },
+        "score": 13.504716,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p86:p2 | starter/data/wdr2021.pdf | page 86]\nHow well public data\nsystems are funded is thus also a matter of high-level\ngovernment officials recognizing the value of public\nintent data and offering leadership to encourage collection of them.72 A key factor in such an effort is the\nperceived relevance and credibility of public intent\ndata and its producers.73\nAnother reason for lack of funding for data is the\nabsence of a benchmark guiding how much governments should spend, unlike for other areas of government spending. For example, the Education 2030\nFramework for Action urges countries to allocate at\nleast 4–6 percent of GDP or at least 15–20 percent\nof their total public expenditure to education.",
+    "context_ids": [
+      "wdr2021:p86:p2"
+    ],
+    "context_chars": 717,
+    "elapsed_ms": 8.152,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Which kinds of firms produce data as their primary output?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 113,
+        "evidence": "data intermediaries, including rating services such\nas Nielsen; pollsters such as Gallup; and data aggregators such as dataPublica"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p113:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 113,
+        "text": "For example, e-commerce platforms use data created\nas a by-product of transactions on their platform to\nimprove their product offerings; credit card companies sometimes sell their transaction data for a\nspecific location to firms involved in tourism in that\nlocation; and new firms use CDRs for commercial\npurposes, including analytics and advertising.5\nData as an output. For some firms, data are the primary output of the production process. Examples are\ndata intermediaries, including rating services such\nas Nielsen; pollsters such as Gallup; and data aggregators such as dataPublica.6 These data are then used\neither by other firms in their production processes or\nby government in policy making.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "3",
+          "char_end": 1008,
+          "language": "en",
+          "char_start": 307,
+          "chapter_title": "Data as a resource for the private sector",
+          "document_type": "report"
+        },
+        "score": 18.722281,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p112:p7",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 112,
+        "text": "Data as a factor of production. For some firms, data\nare considered an input central to their business,\nessential to fulfillment of their core objectives. In this\ncontext, data have been referred to as a factor of production—on a par with labor, capital, and land—that\nis a primary determinant of output and productivity.1\nFor example, many social media platforms are built\naround monetizing their users’ data for advertising.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "3",
+          "char_end": 3975,
+          "language": "en",
+          "char_start": 3549,
+          "chapter_title": "Data as a resource for the private sector",
+          "document_type": "report"
+        },
+        "score": 16.902065,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p114:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 114,
+        "text": "artificial intelligence, including machine learning\nArtificial intelligence (AI) and machine learning (ML) can\nhelp firms analyze their data with less manual effort. AI is\nthe development and use of any device that perceives its\nenvironment and takes actions that maximize its chance\nof success of reaching a defined goal (including learning\nand adapting to its environment). It is not a single technology but a family of technologies. Machine learning is\none application of AI. The algorithms that underlay AI\nrely on inputs of large amounts of data to learn and produce accurate and valuable insights. Based on adoption\npatterns, studies predict that firms responsible for about\n70 percent of economic output will have adopted at least\none type of AI technology by 2030.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "3",
+          "char_end": 1654,
+          "language": "en",
+          "char_start": 881,
+          "chapter_title": "Data as a resource for the private sector",
+          "document_type": "report"
+        },
+        "score": 11.794113,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p113:p1 | starter/data/wdr2021.pdf | page 113]\nFor example, e-commerce platforms use data created\nas a by-product of transactions on their platform to\nimprove their product offerings; credit card companies sometimes sell their transaction data for a\nspecific location to firms involved in tourism in that\nlocation; and new firms use CDRs for commercial\npurposes, including analytics and advertising.5\nData as an output. For some firms, data are the primary output of the production process. Examples are\ndata intermediaries, including rating services such\nas Nielsen; pollsters such as Gallup; and data aggregators such as dataPublica.6 These data are then used\neither by other firms in their production processes or\nby government in policy making.",
+    "context_ids": [
+      "wdr2021:p113:p1"
+    ],
+    "context_chars": 757,
+    "elapsed_ms": 8.303,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "In the German e-commerce study, how did the time of purchase relate to payment default?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 120,
+        "evidence": "People who made purchases\nbetween noon and 6 p.m. were half as likely to default\non their payment for the products bought as those\nwho made purchases between midnight and 6 a.m."
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p120:p0",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 120,
+        "text": "top quartile of the income distribution in the United\nStates.18 A study in Germany found that the time of\nday that purchases were made on an e-commerce\nsite was predictive of a consumer’s self-control and\nrepayment behavior. People who made purchases\nbetween noon and 6 p.m. were half as likely to default\non their payment for the products bought as those\nwho made purchases between midnight and 6 a.m.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "3",
+          "char_end": 402,
+          "language": "en",
+          "char_start": 0,
+          "chapter_title": "Data as a resource for the private sector",
+          "document_type": "report"
+        },
+        "score": 25.194054,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p123:p3",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 123,
+        "text": "Two early movers that have achieved scale—\nLenddo (Philippines) and Cignifi (operating in\nAfrica, Asia, and Latin America)—use data that\ncon sumers volunteer about their cellphone use\npatterns\n, digital transactions, and social media and\nweb browsing activity to build algorithms that map\nbehavioral patterns and score the creditworthiness\nof borrowers.\nPayment and transaction histories have also\nenabled e-commerce firms to move into lending.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "3",
+          "char_end": 1996,
+          "language": "en",
+          "char_start": 1552,
+          "chapter_title": "Data as a resource for the private sector",
+          "document_type": "report"
+        },
+        "score": 13.730625,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p265:p3",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 265,
+        "text": "Strengthen the capacity of customs to tackle e-commerce\nflows. Some specific facilitation measures can\nimprove the efficiency of e-commerce transactions,\nsuch as the use of de minimis thresholds, pre-\narrival processing, and online procedures for customs\nclearance. Similarly, having a simplified declarations\nregime for low-value shipments can help e-commerce\nvendors and small traders move goods faster.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "7",
+          "char_end": 2100,
+          "language": "en",
+          "char_start": 1695,
+          "chapter_title": "Creating value in the data economy: The role of competition, trade, and tax policy",
+          "document_type": "report"
+        },
+        "score": 12.148493,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p120:p0 | starter/data/wdr2021.pdf | page 120]\ntop quartile of the income distribution in the United\nStates.18 A study in Germany found that the time of\nday that purchases were made on an e-commerce\nsite was predictive of a consumer’s self-control and\nrepayment behavior. People who made purchases\nbetween noon and 6 p.m. were half as likely to default\non their payment for the products bought as those\nwho made purchases between midnight and 6 a.m.",
+    "context_ids": [
+      "wdr2021:p120:p0"
+    ],
+    "context_chars": 458,
+    "elapsed_ms": 8.446,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What problem arises when individual data patterns are used to decide who is eligible for services?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 145,
+        "evidence": "A key challenge to using individual data patterns to allocate resources or establish\neligibility for products and services is data manipulation"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p145:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 145,
+        "text": "These data are now being applied to the public\nsphere, ranging from improving population maps9 to\nhelping decision-makers target and optimize critical\ndevelopment resources. A key challenge to using individual data patterns to allocate resources or establish\neligibility for products and services is data manipulation: individuals may strategically change browsing\nor other data usage behavior to appear more favorable\nin ranking criteria used by data algorithms to make\nallocation decisions. More research and policy deliberations are needed to design algorithms and decision\nrules that account for such user manipulation.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "4",
+          "char_end": 1598,
+          "language": "en",
+          "char_start": 975,
+          "chapter_title": "Creative reuses of data for greater value",
+          "document_type": "report"
+        },
+        "score": 14.422887,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p184:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 184,
+        "text": "A person who becomes digitally literate and therefore more motivated to access\nthe internet may then face affordability challenges\nnot relevant before.\nIndividuals are also attracted to using the internet\nwhen family members or friends do so, particularly\nwhen it comes to social media. Analysis conducted for\nthis Report found that social network effects have a\nsignificant positive impact on the usage of wireless\ninternet in low- and middle-income countries. Individuals whose five closest friends are using an online\nsocial network are 63 percent more likely to use the\ninternet than those whose closest friends are not\nalready active on social media.47\nAddressing the widespread problem of digital literacy.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 2899,
+          "language": "en",
+          "char_start": 2187,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 12.232022,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p28:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 28,
+        "text": "Many of the processes through which firms create\nvalue with their data are driven by algorithms and\nmachine learning. In these models, algorithms determine, among other things, what information, products, or services individuals are exposed to and at\nwhat price; what insurance packages they are offered;\nwhether their loan applications are approved; what\njobs they qualify for; and what medical advice they\nreceive.",
+        "metadata": {
+          "part": "overview",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "overview",
+          "char_end": 2920,
+          "language": "en",
+          "char_start": 2504,
+          "chapter_title": "Overview",
+          "document_type": "report"
+        },
+        "score": 11.978342,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p145:p2 | starter/data/wdr2021.pdf | page 145]\nThese data are now being applied to the public\nsphere, ranging from improving population maps9 to\nhelping decision-makers target and optimize critical\ndevelopment resources. A key challenge to using individual data patterns to allocate resources or establish\neligibility for products and services is data manipulation: individuals may strategically change browsing\nor other data usage behavior to appear more favorable\nin ranking criteria used by data algorithms to make\nallocation decisions. More research and policy deliberations are needed to design algorithms and decision\nrules that account for such user manipulation.",
+    "context_ids": [
+      "wdr2021:p145:p2"
+    ],
+    "context_chars": 679,
+    "elapsed_ms": 8.254,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What kind of bias appeared in word embeddings trained on Google News?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 155,
+        "evidence": "When trained on Google News, word-embedding\nalgorithms aimed at measuring the similarity between\nwords tend to propagate the sexist biases reflected in\nthe text"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p155:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 155,
+        "text": "Text generation algorithms\ntrained on massive online text databases that were\nscraped from the web, such as the GPT-2 database\ncreated by Open AI, have been found to generate racist\nand anti-Semitic text in response to specific inputs.77\nWhen trained on Google News, word-embedding\nalgorithms aimed at measuring the similarity between\nwords tend to propagate the sexist biases reflected in\nthe text, highlighting similarities between “man” and\n“computer programmer,” whereas “woman” appears\nto be associated with “homemaker.”78 Arguably, such\ndiscrimination can have larger consequences in\nlower-income countries, which typically lack safety\nnets and social protection mechanisms.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "4",
+          "char_end": 1374,
+          "language": "en",
+          "char_start": 694,
+          "chapter_title": "Creative reuses of data for greater value",
+          "document_type": "report"
+        },
+        "score": 21.482804,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p130:p3",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 130,
+        "text": "This kind of price discrimination\nis not inherently bad—it is a transfer of surplus from\nconsumers to producers, and governments can use\ntaxes and transfers to distribute it back again—but\ndata and data-driven business models do make it\neasier to discriminate by price.\nAlgorithms can facilitate anticompetitive behavior\nby firms, ultimately harming individuals through\nhigher prices. Algorithms can be trained to collude\nindependently by surreptitiously following the behavior of a price leader, or they may be unintentionally\nbiased because of inherent bias in their training data.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "3",
+          "char_end": 2557,
+          "language": "en",
+          "char_start": 1974,
+          "chapter_title": "Data as a resource for the private sector",
+          "document_type": "report"
+        },
+        "score": 14.515042,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p193:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 193,
+        "text": "Free cloud services funded by advertising, such\nas webmail and online social networks, are already\nwidely used in low- and middle-income nations.\nGoogle Docs provides word processing, spreadsheet,\nand presentation software used by millions around\nthe world. 105 IBM offers several free services on its\ncloud.106 However, sophisticated cloud services such\nas storage and analysis of vast amounts of data can\nbe costly for developing economies because of the\ncost of moving data internationally and the resulting\nsacrifice in terms of speed.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 1959,
+          "language": "en",
+          "char_start": 1420,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 11.650959,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p155:p1 | starter/data/wdr2021.pdf | page 155]\nText generation algorithms\ntrained on massive online text databases that were\nscraped from the web, such as the GPT-2 database\ncreated by Open AI, have been found to generate racist\nand anti-Semitic text in response to specific inputs.77\nWhen trained on Google News, word-embedding\nalgorithms aimed at measuring the similarity between\nwords tend to propagate the sexist biases reflected in\nthe text, highlighting similarities between “man” and\n“computer programmer,” whereas “woman” appears\nto be associated with “homemaker.”78 Arguably, such\ndiscrimination can have larger consequences in\nlower-income countries, which typically lack safety\nnets and social protection mechanisms.",
+    "context_ids": [
+      "wdr2021:p155:p1"
+    ],
+    "context_chars": 736,
+    "elapsed_ms": 6.795,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which technology has become the most relevant way to access data services in low- and middle-income countries?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 180,
+        "evidence": "wireless broadband networks have emerged as\nthe most relevant technology for accessing data services"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p180:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 180,
+        "text": "In the context of low- and middle-income countries, wireless broadband networks have emerged as\nthe most relevant technology for accessing data services. The impacts of wireless broadband are greater\nthan those of wired broadband in these nations,13 particularly because the expansion of fixed broadband is\nrelatively limited and has yet to reach the minimum\nthreshold to have a statistically significant effect\non economic growth. 14 Even in upper-middle-and\nhigh-income nations, where fixed broadband is more\nprevalent users spend most of their time online on\nmobile phones.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 1535,
+          "language": "en",
+          "char_start": 958,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 23.599213,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p185:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 185,
+        "text": "Once people become digitally literate, a key determinant of using the internet is availability of local\nlanguage content.53 Social media usage grows rapidly\nas the relevant apps become available in local languages much sooner than internet content.54\nMaking digital devices more affordable. Poor people\nwishing to avail themselves of internet access must\nfirst be able to afford a mobile device. However,\naccording to one study, the cost of even an entry-level\ndevice exceeds 20 percent of the monthly income in\nmore than half of low- and middle-income nations. 55\nAnother study found that the cost of a low-end US$42\nsmartphone is more than 80 percent of the monthly\nincome in low-income countries.56\nEfforts are under way to make entry-level internet devices more affordable.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 2090,
+          "language": "en",
+          "char_start": 1312,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 20.312207,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p193:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 193,
+        "text": "Small enterprises can then outsource\nIT activities that they otherwise would not be able to\nprovide internally, while benefiting from the flexibility of immediate upgrades to the most recent analytics and storage technology.\nAs broadband connectivity has become more\nwidely available around the world, cloud computing\nhas been growing rapidly, with industry revenues\nexceeding US$180 billion in 2018, up 27 percent over\nthe previous year.104 A few large companies dominate\nthe cloud space, with almost all software and IT services firms based in the United States. These hyperscale providers operate cloud data centers mainly in\nhigh-income countries, with just a handful in large\nmiddle-income nations such as Brazil and South\nAfrica, though not elsewhere in the developing world.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 1419,
+          "language": "en",
+          "char_start": 638,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 18.074613,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p180:p2 | starter/data/wdr2021.pdf | page 180]\nIn the context of low- and middle-income countries, wireless broadband networks have emerged as\nthe most relevant technology for accessing data services. The impacts of wireless broadband are greater\nthan those of wired broadband in these nations,13 particularly because the expansion of fixed broadband is\nrelatively limited and has yet to reach the minimum\nthreshold to have a statistically significant effect\non economic growth. 14 Even in upper-middle-and\nhigh-income nations, where fixed broadband is more\nprevalent users spend most of their time online on\nmobile phones.",
+    "context_ids": [
+      "wdr2021:p180:p2"
+    ],
+    "context_chars": 632,
+    "elapsed_ms": 8.859,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "How much faster is a locally hosted website in Rwanda than one hosted abroad?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 190,
+        "evidence": "In Rwanda, it is 40 times faster\nto access a locally hosted website (<5 milliseconds)\nthan one hosted in the United States or Europe (>200\nmilliseconds)."
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p190:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 190,
+        "text": "In Rwanda, it is 40 times faster\nto access a locally hosted website (<5 milliseconds)\nthan one hosted in the United States or Europe (>200\nmilliseconds).89\nAs of June 2020, there were 556 IXPs across the\nglobe.90 Europe, with the largest number, accounts\nfor 37 percent of the world total, while Africa has\njust 9 percent and accounts for less than 2 percent\nof global IXP traffic, although that traffic is growing\nrapidly.91 Stark differences in the availability of IXPs\nare evident across country income groups, particularly when population differences are taken into\naccount.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 1141,
+          "language": "en",
+          "char_start": 563,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 44.074001,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p327:p6",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 327,
+        "text": "The establishment of internet exchange points (IXPs),\nwhich requires a competitive market for internet\nproviders, helps create a vibrant digital ecosystem.\nWell-functioning IXPs attract content providers\nlocally and from abroad. The consequent growth of\ndata consumption generates investments from colocation data centers and cloud providers.",
+        "metadata": {
+          "part": "III",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "9",
+          "char_end": 3914,
+          "language": "en",
+          "char_start": 3572,
+          "chapter_title": "Creating an integrated national data system",
+          "document_type": "report"
+        },
+        "score": 14.027535,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p185:p7",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 185,
+        "text": "The number of fixed broadband subscriptions is much higher in high-income economies, and\nbecause of more favorable data plans, these subscriptions support much higher levels of consumption\nthan mobile subscriptions—potentially as much as\n100 times more.63\nThe consumption gap raises questions about how\nmuch data are “enough” to meet basic social and economic needs.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "5",
+          "char_end": 4250,
+          "language": "en",
+          "char_start": 3883,
+          "chapter_title": "Data infrastructure policy: Ensuring equitable access for poor people",
+          "document_type": "report"
+        },
+        "score": 13.848032,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p190:p1 | starter/data/wdr2021.pdf | page 190]\nIn Rwanda, it is 40 times faster\nto access a locally hosted website (<5 milliseconds)\nthan one hosted in the United States or Europe (>200\nmilliseconds).89\nAs of June 2020, there were 556 IXPs across the\nglobe.90 Europe, with the largest number, accounts\nfor 37 percent of the world total, while Africa has\njust 9 percent and accounts for less than 2 percent\nof global IXP traffic, although that traffic is growing\nrapidly.91 Stark differences in the availability of IXPs\nare evident across country income groups, particularly when population differences are taken into\naccount.",
+    "context_ids": [
+      "wdr2021:p190:p1"
+    ],
+    "context_chars": 634,
+    "elapsed_ms": 6.971,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "How many people worldwide lack government-recognized proof of identity?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 220,
+        "evidence": "an\nestimated 1 billion people worldwide do not have\ngovernment-recognized proof of their identity"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p220:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 220,
+        "text": "An important tool\nfor authentication of parties to a digital transaction\nis a trusted digital identification system with widespread coverage, allowing individuals to securely\nprove their identity in online settings. Currently, an\nestimated 1 billion people worldwide do not have\ngovernment-recognized proof of their identity (and\nmany more do not have the means to securely and\nreliably prove who they are in the digital world).",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "6",
+          "char_end": 1180,
+          "language": "en",
+          "char_start": 751,
+          "chapter_title": "Data policies, laws, and regulations: Creating a trust environment",
+          "document_type": "report"
+        },
+        "score": 32.896645,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p220:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 220,
+        "text": "79\nAlthough the use of digital identity verification and\nauthentication tools is on the rise, driven in part by\nadvances in connectivity as well as growth in digital\npayments and services,80 fewer than half of surveyed\ncountries have government-recognized digital identification systems that would enable people to remotely\nauthenticate themselves to access e-government\nservices. Those that do are mainly higher-income\nnations (figure 6.5).\nEnsuring technical neutrality of online systems .",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "6",
+          "char_end": 1671,
+          "language": "en",
+          "char_start": 1180,
+          "chapter_title": "Data policies, laws, and regulations: Creating a trust environment",
+          "document_type": "report"
+        },
+        "score": 16.077971,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p148:p0",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 148,
+        "text": "accurately map disease spread and enable timely and\nappropriate public policy responses.\nTargeting resource allocations and\nresponses during crises\nApproximately 20–30 million people worldwide are\ndisplaced every year because of natural disasters\nsuch as storms, floods, droughts, and geological\nevents.31 Over the last decade, about 600,000 people\nlost their lives to natural disasters, most of them in\nlow- and middle-income countries. 32 Effective disaster prevention, mitigation, response, and recovery\nrequire timely, cost-effective data at fine spatial\nscales. However, many countries lack the adequate\nearly warning systems and advanced geological tools\nto aid in this process—at times with devastating consequences.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "4",
+          "char_end": 724,
+          "language": "en",
+          "char_start": 0,
+          "chapter_title": "Creative reuses of data for greater value",
+          "document_type": "report"
+        },
+        "score": 12.394699,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p220:p1 | starter/data/wdr2021.pdf | page 220]\nAn important tool\nfor authentication of parties to a digital transaction\nis a trusted digital identification system with widespread coverage, allowing individuals to securely\nprove their identity in online settings. Currently, an\nestimated 1 billion people worldwide do not have\ngovernment-recognized proof of their identity (and\nmany more do not have the means to securely and\nreliably prove who they are in the digital world).",
+    "context_ids": [
+      "wdr2021:p220:p1"
+    ],
+    "context_chars": 484,
+    "elapsed_ms": 7.136,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "How many antitrust cases related to the data economy had been finalized worldwide as of January 2020?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 250,
+        "evidence": "Worldwide, as of January 2020 some 102 antitrust cases\nacross 16 different sectors on abuse of dominance,\nanticompetitive agreements, and mergers had been\nfinalized."
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p250:p3",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 250,
+        "text": "Enforcing antitrust laws\nAntitrust investigations in the data economy are\nnot just a developed country phenomenon. Worldwide, as of January 2020 some 102 antitrust cases\nacross 16 different sectors on abuse of dominance,\nanticompetitive agreements, and mergers had been\nfinalized.3 European antitrust authorities have finalized the most cases (33 percent), followed by authorities in East Asia and the Pacific (18 percent) and Latin\nAmerica (15 percent). The most active lower-middle-\nincome countries included the Arab Republic of\nEgypt, India, and Kenya, with more cases still under\ninvestigation in Indonesia, Nigeria, and Zimbabwe.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "7",
+          "char_end": 1874,
+          "language": "en",
+          "char_start": 1239,
+          "chapter_title": "Creating value in the data economy: The role of competition, trade, and tax policy",
+          "document_type": "report"
+        },
+        "score": 42.807062,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p250:p6",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 250,
+        "text": "Note: Percentages are based on information for all antitrust cases involving digital platforms globally for which information was publicly available as of January 2020. Cases total 62 in\nhigh-income countries and 40 in middle-income countries. Panel a: “Others” includes digital music, e-books, educational materials, food delivery, online comparison platforms, dating\nplatforms, and ticketing. Panel b: “Others” includes online delivery services, ticketing, and tourism. No cases were finalized in low-income countries, according to publicly available\ninformation.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "7",
+          "char_end": 3768,
+          "language": "en",
+          "char_start": 3203,
+          "chapter_title": "Creating value in the data economy: The role of competition, trade, and tax policy",
+          "document_type": "report"
+        },
+        "score": 25.904234,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p250:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 250,
+        "text": "Low-income jurisdictions had not yet finalized any\nantitrust cases involving digital platforms, likely\nreflecting the absence of functional or well-resourced\nantitrust regimes and lower policy prioritization.4\nAmong landmark cases from the middle-income\ncountry group is the 2018 investigation by the Competition Commission of India finding that Google\nabused its dominant position in web search and\nadvertising. Google favored its own services and\npartners through manual manipulation of its search\nalgorithm, thereby putting smaller businesses at\na disadvantage.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "7",
+          "char_end": 2440,
+          "language": "en",
+          "char_start": 1875,
+          "chapter_title": "Creating value in the data economy: The role of competition, trade, and tax policy",
+          "document_type": "report"
+        },
+        "score": 20.514259,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p250:p3 | starter/data/wdr2021.pdf | page 250]\nEnforcing antitrust laws\nAntitrust investigations in the data economy are\nnot just a developed country phenomenon. Worldwide, as of January 2020 some 102 antitrust cases\nacross 16 different sectors on abuse of dominance,\nanticompetitive agreements, and mergers had been\nfinalized.3 European antitrust authorities have finalized the most cases (33 percent), followed by authorities in East Asia and the Pacific (18 percent) and Latin\nAmerica (15 percent). The most active lower-middle-\nincome countries included the Arab Republic of\nEgypt, India, and Kenya, with more cases still under\ninvestigation in Indonesia, Nigeria, and Zimbabwe.",
+    "context_ids": [
+      "wdr2021:p250:p3"
+    ],
+    "context_chars": 691,
+    "elapsed_ms": 8.733,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Into which thematic clusters are data governance functions divided?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 290,
+        "evidence": "strategic planning; rule making and implementation; compliance;\nand learning and evidence to provide insights and\nimprove policy making"
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p290:p0",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 290,
+        "text": "take a broad view of data governance. Its functions\nare divided into four thematic clusters: strategic planning; rule making and implementation; compliance;\nand learning and evidence to provide insights and\nimprove policy making (figure 8.2). Within each thematic cluster are several functions.10 The next major\nsection maps the governance functions described\nhere to specific institutions and actors both inside\nand outside government.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "8",
+          "char_end": 436,
+          "language": "en",
+          "char_start": 0,
+          "chapter_title": "Institutions for data governance: Building trust through collective action",
+          "document_type": "report"
+        },
+        "score": 36.658479,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p292:p1",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 292,
+        "text": "One reason\nfor doing so is that creating stand-alone institutions\ncan be costly and inefficient, requiring sufficient\nresources and technical capacities to be productive.23\nEmbedding new functions in existing institutions\nTable 8.2 Candidate institutions and actors to perform or inform data governance\nfunctions\nThematic clusters and functions Indicative institutions and actors\nStrategic planning\n• Developing strategies and policies in\nline with the social contract for data\n• Establishing institutional arrangements\nData governance arrangement\n• Centralized approach: data governance agency/unit embedded in\nan existing institution (such as NSO, digital economy ministry)\n• Decentralized approach: data governance units and\nresponsibilities embedded across government\n• CSOs\n• Universities\n• Rese",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "8",
+          "char_end": 1595,
+          "language": "en",
+          "char_start": 795,
+          "chapter_title": "Institutions for data governance: Building trust through collective action",
+          "document_type": "report"
+        },
+        "score": 20.779304,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p291:p5",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 291,
+        "text": "These processes have become more important over the last 20 years. 18 Nongovernmental institutions can also impose checks on governments in\nstates with weak or limited formal institutions where\nelite capture may impede data governance and hinder\noutcomes in the public interest.19\nTable 8.2 maps institutions and actors to the governance functions they typically perform, according\nto the most prominent function of each institution.\nThis mapping does not imply that certain institutions\ndo not also perform other functions that may fall in\nother thematic clusters. The institutions and actors\ndiscussed here are not meant to be prescriptive or\nexhaustive. Rather, they illustrate how these functions and processes can be performed in different\ncontexts.",
+        "metadata": {
+          "part": "II",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "8",
+          "char_end": 3942,
+          "language": "en",
+          "char_start": 3188,
+          "chapter_title": "Institutions for data governance: Building trust through collective action",
+          "document_type": "report"
+        },
+        "score": 19.620072,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p290:p0 | starter/data/wdr2021.pdf | page 290]\ntake a broad view of data governance. Its functions\nare divided into four thematic clusters: strategic planning; rule making and implementation; compliance;\nand learning and evidence to provide insights and\nimprove policy making (figure 8.2). Within each thematic cluster are several functions.10 The next major\nsection maps the governance functions described\nhere to specific institutions and actors both inside\nand outside government.",
+    "context_ids": [
+      "wdr2021:p290:p0"
+    ],
+    "context_chars": 492,
+    "elapsed_ms": 7.523,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "In which country did a legal mandate for civil society participation lead the NSO to create a civil society council?",
+    "strategy": "bm25",
+    "filter_applied": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "wdr2021",
+        "page": 335,
+        "evidence": "In Chile, where civil\nsociety participation is mandated by the national Law\non Associations and Citizen Participation in Public\nManagement, the NSO has put in place a civil society\ncouncil."
+      }
+    ],
+    "results": [
+      {
+        "id": "wdr2021:p335:p2",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 335,
+        "text": "Institutionalized collabora-\ntion on data would also serve as an incentive for relying on data for policy making more broadly, and thus\nwould bolster demand for data.\nJoint planning and strategy setting. Finally, governments should take steps to include civil society in\nplanning, high-level decisions, and strategy setting\nfor the national data system. In Chile, where civil\nsociety participation is mandated by the national Law\non Associations and Citizen Participation in Public\nManagement, the NSO has put in place a civil society\ncouncil.29 Once included in multistakeholder governance forums, civil society can progress from being\na standard-taker to a standard-maker.",
+        "metadata": {
+          "part": "III",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "9",
+          "char_end": 1733,
+          "language": "en",
+          "char_start": 1058,
+          "chapter_title": "Creating an integrated national data system",
+          "document_type": "report"
+        },
+        "score": 34.67118,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wdr2021:p54:p4",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 54,
+        "text": "Individuals, civil society, and academia. In the top\npathway, making data widely available enables\nindividuals and civil society to hold governments\naccountable for policy choices. Inputs from civil society provide a feedback mechanism through which\npolicies can be adapted and improved, leading to\nmore responsive governance. Civil society organizations themselves create data by collecting surveys\nand crowdsourcing information directly from citizens. Such data can foster discussion, government\nFigure 1.3 Three pathways along which data can foster development\nSource: WDR 2021 team.\nNote: Positive impacts are shown in green; negative impacts are shown in red.",
+        "metadata": {
+          "part": "I",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "1",
+          "char_end": 2865,
+          "language": "en",
+          "char_start": 2201,
+          "chapter_title": "Harnessing the value of data for the poor",
+          "document_type": "report"
+        },
+        "score": 25.38608,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wdr2021:p333:p3",
+        "source_id": "wdr2021",
+        "source": "starter/data/wdr2021.pdf",
+        "page": 333,
+        "text": "A key function of CSOs, national and international\nNGOs, individual citizens, and journalists and the\nmedia is to hold the government and private sector\naccountable. But the national data system also stands\nto gain from the systematic incorporation of citizen-\ngenerated data for use by other participants. This\neffort requires collaboration and shared governance\narrangements between government and civil society.\nBecause of the importance of civil society’s accountability function, these governance arrangements\nmust be set up to reinforce the unconditional independence of civil society data producers and users.\nFor civil society and individuals to be an integral\npart of a national data system, several prerequisites\nmust be met.",
+        "metadata": {
+          "part": "III",
+          "year": 2021,
+          "title": "World Development Report 2021: Data for Better Lives",
+          "chapter": "9",
+          "char_end": 2289,
+          "language": "en",
+          "char_start": 1554,
+          "chapter_title": "Creating an integrated national data system",
+          "document_type": "report"
+        },
+        "score": 19.917139,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[wdr2021:p335:p2 | starter/data/wdr2021.pdf | page 335]\nInstitutionalized collabora-\ntion on data would also serve as an incentive for relying on data for policy making more broadly, and thus\nwould bolster demand for data.\nJoint planning and strategy setting. Finally, governments should take steps to include civil society in\nplanning, high-level decisions, and strategy setting\nfor the national data system. In Chile, where civil\nsociety participation is mandated by the national Law\non Associations and Citizen Participation in Public\nManagement, the NSO has put in place a civil society\ncouncil.29 Once included in multistakeholder governance forums, civil society can progress from being\na standard-taker to a standard-maker.",
+    "context_ids": [
+      "wdr2021:p335:p2"
+    ],
+    "context_chars": 730,
+    "elapsed_ms": 9.597,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr3": 1.0
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "query_id": "adv_d01",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 1.1: accurately lists all Traditional and New examples for both Public intent and Private intent data; exact citation wdr2021:p48:vis_table_1_1."
+  },
+  {
+    "query_id": "adv_d02",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 2.2: accurately reports 30/75/92/98% (advance release calendar) and 10/20/19/33% (user satisfaction survey) across all 4 income groups."
+  },
+  {
+    "query_id": "adv_d03",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Table 8.1: covers every bullet under Store, Transfer/share (including deidentification and confidentiality agreements/APIs), and Destroy or reuse."
+  },
+  {
+    "query_id": "adv_d04",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Figure O.2: names Value, Trust, and Equity with verbatim definitions supported by both vis_figure_o_2 and p26:p7."
+  },
+  {
+    "query_id": "adv_d05",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Figure 1.2: identifies all 7 sequential stages plus Reuse circular loop supported by vis_figure_1_2 and p287:p5."
+  },
+  {
+    "query_id": "adv_d06",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure 2.1: reports all 4 feature groups and all 12 bulleted attributes accurately from wdr2021:p75:vis_figure_2_1."
+  },
+  {
+    "query_id": "adv_d07",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure 1.1: reports 1850=11%, 1950=82%, 1960=94%, 1970=71%, 2010=90% directly from vis_figure_1_1 XY-verified bars."
+  },
+  {
+    "query_id": "adv_d08",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "Figure 5.5 text passage wdr2021:p184:p3: directly gives digital literacy 69%, affordability 15%, and relevance issues 12%."
+  },
+  {
+    "query_id": "adv_d09",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Box 5.1 / Figure B5.1.1: reports 7-8% ICT degree share vs 2.1% high-income and 0.1% low-income employment shares from p194:p1 and vis_figure_b5_1_1."
+  },
+  {
+    "query_id": "adv_d10",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Multihop Table 2.1 + Figure 2.7: reports openness 38 vs 66, open license 11% vs 44%, funded statistical plan 0% vs 93% with exact dual citations."
+  },
+  {
+    "query_id": "adv_d11",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true, true],
+    "notes": "Multihop Figure 1.4 + Table 6.1: reports 4 layers and all 6 global scores (56, 44, 38 | 73, 50, 17); all 3 citations directly support claims."
+  },
+  {
+    "query_id": "adv_d12",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Multihop Figure 7.5 + Table 7.1: describes closure-to-openness spectrum, all 3 models, goals, and Higher/Medium/Lower costs."
+  },
+  {
+    "query_id": "adv_d13",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Text p.115: reports affordability, local content, digital skills (p115:p1) and agricultural IoT commodity weight (p115:p0)."
+  },
+  {
+    "query_id": "adv_d14",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Text p.224: cites UK Digital Economy Act (2017), New York/San Francisco/Sao Paulo, and <20% (<half public uptake) from p224:p0 and p224:p1."
+  },
+  {
+    "query_id": "adv_d15",
+    "pass": true,
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "notes": "Text p.265: accurately explains softer/nonbinding harmonization value vs WTO/PTAs for Convention 108, Budapest Convention, and UNCITRAL model laws."
+  },
+  {
+    "query_id": "adv_d16",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: correctly abstained on post-2021 EU AI Act Regulation 2024/1689."
+  },
+  {
+    "query_id": "adv_d17",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: Table 5.1 distractor — correctly abstained on fabricated Hanoi/HCMC sovereign GPU clusters."
+  },
+  {
+    "query_id": "adv_d18",
+    "pass": true,
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Unanswerable: Figure 7.6 distractor — correctly abstained on 2023 BEPS Pillar One ratification count."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "document_id": "wdr2021",
+  "title": "World Development Report 2021: Data for Better Lives",
+  "license": "CC BY 3.0 IGO",
+  "total_pdf_pages": 349,
+  "content_range_pages": 205,
+  "indexed_pages": 201,
+  "unreadable_pages": [
+    29,
+    77,
+    79,
+    142
+  ],
+  "unreadable_reason": "pypdf LimitReachedError while decompressing complex vector cartography (pages 29, 77, 79, 142)",
+  "text_chunks": 1495,
+  "visual_chunks_total": 94,
+  "visual_breakdown": {
+    "table": 11,
+    "chart": 39,
+    "diagram": 44
+  },
+  "total_advanced_chunks": 1589
+}
